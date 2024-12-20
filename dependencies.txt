@@ -1,0 +1,6 @@
+python-dotenv
+psycopg
+google-generativeai
+tqdm
+openai
+anthropic

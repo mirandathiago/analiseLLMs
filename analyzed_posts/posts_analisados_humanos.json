@@ -8,7 +8,8 @@
         "viewcount": 2351,
         "tags": "|process|roles|human-resources|maintenance|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 871,
@@ -19,7 +20,8 @@
         "viewcount": 7162,
         "tags": "|pmp|certification|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 888,
@@ -30,7 +32,8 @@
         "viewcount": 847,
         "tags": "|development-process|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 1264,
@@ -41,7 +44,8 @@
         "viewcount": 174,
         "tags": "|politics|customer-satisfaction|relationships|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 1279,
@@ -52,7 +56,8 @@
         "viewcount": 17341,
         "tags": "|project-team|technical-leader|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 1539,
@@ -63,7 +68,8 @@
         "viewcount": 51154,
         "tags": "|quality|quality-management|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 1725,
@@ -74,7 +80,8 @@
         "viewcount": 2113,
         "tags": "|agile|books|learning|",
         "answercount": 12,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 2043,
@@ -85,7 +92,8 @@
         "viewcount": 1108,
         "tags": "|team-management|human-resources|team-building|motivation|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 2212,
@@ -96,7 +104,8 @@
         "viewcount": 418,
         "tags": "|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 2309,
@@ -107,7 +116,8 @@
         "viewcount": 2954,
         "tags": "|scrum|planning|maintenance|defect-fixing|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 2316,
@@ -118,7 +128,8 @@
         "viewcount": 7540,
         "tags": "|agile|scrum|planning|sprint|backlog|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 2434,
@@ -129,7 +140,8 @@
         "viewcount": 1318,
         "tags": "|progress-monitor|timeline|timekeeping|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 2635,
@@ -140,7 +152,8 @@
         "viewcount": 2550,
         "tags": "|metrics|quality|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 2659,
@@ -151,7 +164,8 @@
         "viewcount": 895,
         "tags": "|software-development|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 2765,
@@ -162,7 +176,8 @@
         "viewcount": 98029,
         "tags": "|agile|scrum|estimation|story-points|",
         "answercount": 19,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 3284,
@@ -173,7 +188,8 @@
         "viewcount": 736,
         "tags": "|tracking|evm|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 3343,
@@ -184,7 +200,8 @@
         "viewcount": 3017,
         "tags": "|planning|tasks|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 3953,
@@ -195,7 +212,8 @@
         "viewcount": 3184,
         "tags": "|team-management|motivation|team-building|",
         "answercount": 11,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 4037,
@@ -206,7 +224,8 @@
         "viewcount": 1432,
         "tags": "|software-development|motivation|project-team|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 4194,
@@ -217,7 +236,8 @@
         "viewcount": 548,
         "tags": "|team-management|training|product-management|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 4285,
@@ -228,7 +248,8 @@
         "viewcount": 4327,
         "tags": "|agile|planning|software-development|requirements|resource-planning|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 4635,
@@ -239,7 +260,8 @@
         "viewcount": 629,
         "tags": "|scrum|process|tasks|defect-fixing|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 4875,
@@ -250,7 +272,8 @@
         "viewcount": 11349,
         "tags": "|agile|scrum|sprint|",
         "answercount": 10,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 5037,
@@ -261,7 +284,8 @@
         "viewcount": 848,
         "tags": "|time-management|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 5339,
@@ -272,7 +296,8 @@
         "viewcount": 696,
         "tags": "|scrum|tracking|sprint|bugs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 5345,
@@ -283,7 +308,8 @@
         "viewcount": 796,
         "tags": "|estimation|product-management|deadline|subcontractor|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 5439,
@@ -294,7 +320,8 @@
         "viewcount": 734,
         "tags": "|team-management|software-development|communication|project-team|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 5521,
@@ -305,7 +332,8 @@
         "viewcount": 845,
         "tags": "|planning|scheduling|infrastructure|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 6305,
@@ -316,7 +344,8 @@
         "viewcount": 4803,
         "tags": "|ms-project|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 6387,
@@ -327,7 +356,8 @@
         "viewcount": 1277,
         "tags": "|team-management|time-management|",
         "answercount": 10,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 6509,
@@ -338,7 +368,8 @@
         "viewcount": 752,
         "tags": "|scrum|planning|schedule-risk|timeboxing|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 6546,
@@ -349,7 +380,8 @@
         "viewcount": 1432,
         "tags": "|communication|knowledge-management|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 6698,
@@ -360,7 +392,8 @@
         "viewcount": 1790,
         "tags": "|scrum|agile|estimation|scheduling|rally|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 6717,
@@ -371,7 +404,8 @@
         "viewcount": 13990,
         "tags": "|time-management|",
         "answercount": 15,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 7867,
@@ -382,7 +416,8 @@
         "viewcount": 5505,
         "tags": "|metrics|reporting|bugs|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 7904,
@@ -393,7 +428,8 @@
         "viewcount": 3051,
         "tags": "|agile|scrum|team-management|team-building|cross-functional|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 7912,
@@ -404,7 +440,8 @@
         "viewcount": 3698,
         "tags": "|metrics|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 7954,
@@ -415,7 +452,8 @@
         "viewcount": 1937,
         "tags": "|planning|prioritization|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 8059,
@@ -426,7 +464,8 @@
         "viewcount": 4044,
         "tags": "|project-team|communication-management|business-analyst|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 8098,
@@ -437,7 +476,8 @@
         "viewcount": 2505,
         "tags": "|agile|scrum|bugs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 8171,
@@ -448,7 +488,8 @@
         "viewcount": 3093,
         "tags": "|software-development|bugs|prioritization|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 8556,
@@ -459,7 +500,8 @@
         "viewcount": 5172,
         "tags": "|scrum|agile|metrics|burn-charts|velocity|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 8793,
@@ -470,7 +512,8 @@
         "viewcount": 1092,
         "tags": "|sprint|customer|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 8809,
@@ -481,7 +524,8 @@
         "viewcount": 6869,
         "tags": "|agile|estimation|velocity|pivotal-tracker|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9287,
@@ -492,7 +536,8 @@
         "viewcount": 2583,
         "tags": "|roles|quality-management|testing|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9338,
@@ -503,7 +548,8 @@
         "viewcount": 2556,
         "tags": "|documentation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9538,
@@ -514,7 +560,8 @@
         "viewcount": 13730,
         "tags": "|scrum|agile|sprint|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9631,
@@ -525,7 +572,8 @@
         "viewcount": 3400,
         "tags": "|scrum|agile|software-development|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9674,
@@ -536,7 +584,8 @@
         "viewcount": 434,
         "tags": "|process|bugs|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9717,
@@ -547,7 +596,8 @@
         "viewcount": 322,
         "tags": "|scrum|tasks|user-stories|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 9809,
@@ -558,7 +608,8 @@
         "viewcount": 424,
         "tags": "|communication|management|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 9926,
@@ -569,7 +620,8 @@
         "viewcount": 188,
         "tags": "|knowledge-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10078,
@@ -580,7 +632,8 @@
         "viewcount": 518,
         "tags": "|scheduling|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10084,
@@ -591,7 +644,8 @@
         "viewcount": 221,
         "tags": "|project-team|motivation|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10126,
@@ -602,7 +656,8 @@
         "viewcount": 2416,
         "tags": "|scrum|planning|user-stories|sprint|change-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10705,
@@ -613,7 +668,8 @@
         "viewcount": 5550,
         "tags": "|scrum|agile|planning|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10788,
@@ -624,7 +680,8 @@
         "viewcount": 286,
         "tags": "|scrum|scrum-master|process-improvement|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10804,
@@ -635,7 +692,8 @@
         "viewcount": 1513,
         "tags": "|team-management|team|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 10927,
@@ -646,7 +704,8 @@
         "viewcount": 773,
         "tags": "|team-management|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11204,
@@ -657,7 +716,8 @@
         "viewcount": 237,
         "tags": "|scrum|measurement|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11479,
@@ -668,7 +728,8 @@
         "viewcount": 144,
         "tags": "|user-stories|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11489,
@@ -679,7 +740,8 @@
         "viewcount": 1306,
         "tags": "|agile|quality|process-controls|constraints|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11639,
@@ -690,7 +752,8 @@
         "viewcount": 556,
         "tags": "|planning|estimation|methodology|deadline|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11771,
@@ -701,7 +764,8 @@
         "viewcount": 330,
         "tags": "|agile|planning|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11902,
@@ -712,7 +776,8 @@
         "viewcount": 14349,
         "tags": "|ms-project|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 11980,
@@ -723,7 +788,8 @@
         "viewcount": 348,
         "tags": "|planning|software-development|time-management|quality-management|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 12091,
@@ -734,7 +800,8 @@
         "viewcount": 4301,
         "tags": "|scrum|agile|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 12303,
@@ -745,7 +812,8 @@
         "viewcount": 9501,
         "tags": "|scrum|jira|scrum-of-scrums|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 12504,
@@ -756,7 +824,8 @@
         "viewcount": 141,
         "tags": "|software-development|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 12581,
@@ -767,7 +836,8 @@
         "viewcount": 326,
         "tags": "|scrum|agile|team-capacity|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 12758,
@@ -778,7 +848,8 @@
         "viewcount": 2161,
         "tags": "|scrum|software-development|product-owner|definition-of-done|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 14106,
@@ -789,7 +860,8 @@
         "viewcount": 1027,
         "tags": "|scrum|project-team|relationships|negotiation|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 14164,
@@ -800,7 +872,8 @@
         "viewcount": 635,
         "tags": "|change-management|project-management-style|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 14341,
@@ -811,7 +884,8 @@
         "viewcount": 803,
         "tags": "|quality|team|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 14345,
@@ -822,7 +896,8 @@
         "viewcount": 2448,
         "tags": "|scrum|agile|planning|technical-leader|sales|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 14360,
@@ -833,7 +908,8 @@
         "viewcount": 187,
         "tags": "|scrum|agile|performance|technical-leader|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 14629,
@@ -844,7 +920,8 @@
         "viewcount": 778,
         "tags": "|scrum|planning|motivation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 14692,
@@ -855,7 +932,8 @@
         "viewcount": 3415,
         "tags": "|scrum|tasks|product-owner|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 14722,
@@ -866,7 +944,8 @@
         "viewcount": 2698,
         "tags": "|ms-project|cost-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 14943,
@@ -877,7 +956,8 @@
         "viewcount": 3284,
         "tags": "|scrum|task-management|waterfall|evm|definition-of-done|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 15069,
@@ -888,7 +968,8 @@
         "viewcount": 54360,
         "tags": "|scrum|agile|team-capacity|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 15140,
@@ -899,7 +980,8 @@
         "viewcount": 121,
         "tags": "|risk-management|metrics|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 15261,
@@ -910,7 +992,8 @@
         "viewcount": 1180,
         "tags": "|agile|user-stories|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 15431,
@@ -921,7 +1004,8 @@
         "viewcount": 966,
         "tags": "|scrum|agile|sprint|story-points|",
         "answercount": 6,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "No"
     },
     {
         "id": 15796,
@@ -932,7 +1016,8 @@
         "viewcount": 465,
         "tags": "|scrum|agile|sprint|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 15933,
@@ -943,7 +1028,8 @@
         "viewcount": 1112,
         "tags": "|scrum|development-process|process-improvement|impediment|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 16020,
@@ -954,7 +1040,8 @@
         "viewcount": 1092,
         "tags": "|scrum|sprint|extreme-programming|",
         "answercount": 3,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "No"
     },
     {
         "id": 16299,
@@ -965,7 +1052,8 @@
         "viewcount": 255,
         "tags": "|team-management|planning|software-development|resource-planning|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 16361,
@@ -976,7 +1064,8 @@
         "viewcount": 12745,
         "tags": "|scrum|process|time-management|roles|testing|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 16578,
@@ -987,7 +1076,8 @@
         "viewcount": 4063,
         "tags": "|scrum|agile|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 16818,
@@ -998,7 +1088,8 @@
         "viewcount": 697,
         "tags": "|kanban|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17051,
@@ -1009,7 +1100,8 @@
         "viewcount": 1365,
         "tags": "|scrum|agile|planning|estimation|release-planning|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17143,
@@ -1020,7 +1112,8 @@
         "viewcount": 7391,
         "tags": "|scrum|agile|user-stories|tasks|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17145,
@@ -1031,7 +1124,8 @@
         "viewcount": 2548,
         "tags": "|agile|user-stories|tasks|tracking|bugs|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17207,
@@ -1042,7 +1136,8 @@
         "viewcount": 1391,
         "tags": "|scrum|agile|burn-charts|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17313,
@@ -1053,7 +1148,8 @@
         "viewcount": 285,
         "tags": "|team-management|estimation|schedule|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17319,
@@ -1064,7 +1160,8 @@
         "viewcount": 1177,
         "tags": "|scrum|product-owner|retrospective|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17350,
@@ -1075,7 +1172,8 @@
         "viewcount": 104,
         "tags": "|agile|software-development|documentation|waterfall|specification|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17395,
@@ -1086,7 +1184,8 @@
         "viewcount": 1728,
         "tags": "|scrum|agile|sprint|story-points|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17425,
@@ -1097,7 +1196,8 @@
         "viewcount": 378,
         "tags": "|scrum|agile|tasks|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17514,
@@ -1108,7 +1208,8 @@
         "viewcount": 9211,
         "tags": "|scrum|evaluation|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17567,
@@ -1119,7 +1220,8 @@
         "viewcount": 1831,
         "tags": "|requirements|documentation|scope|contracts|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17701,
@@ -1130,7 +1232,8 @@
         "viewcount": 5585,
         "tags": "|scrum|estimation|story-points|velocity|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17721,
@@ -1141,7 +1244,8 @@
         "viewcount": 8252,
         "tags": "|scheduling|resource-planning|",
         "answercount": 14,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 17923,
@@ -1152,7 +1256,8 @@
         "viewcount": 487,
         "tags": "|scrum|kanban|tasks|small-projects|lean|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 17978,
@@ -1163,7 +1268,8 @@
         "viewcount": 181,
         "tags": "|planning|methodology|risk|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 18092,
@@ -1174,7 +1280,8 @@
         "viewcount": 3191,
         "tags": "|agile|user-stories|resources|sprint-backlog|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 18138,
@@ -1185,7 +1292,8 @@
         "viewcount": 1054,
         "tags": "|project-management-style|skills|training|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 18254,
@@ -1196,7 +1304,8 @@
         "viewcount": 426,
         "tags": "|scrum|project-team|sales|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 18298,
@@ -1207,7 +1316,8 @@
         "viewcount": 4396,
         "tags": "|scrum|process|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 18545,
@@ -1218,7 +1328,8 @@
         "viewcount": 274,
         "tags": "|software-development|education|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 18617,
@@ -1229,7 +1340,8 @@
         "viewcount": 880,
         "tags": "|scrum|agile|roles|testing|scaled|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 18637,
@@ -1240,7 +1352,8 @@
         "viewcount": 200,
         "tags": "|jira|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 18708,
@@ -1251,7 +1364,8 @@
         "viewcount": 620,
         "tags": "|scrum|team-management|sprint|project-management-style|team-capacity|",
         "answercount": 5,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "No"
     },
     {
         "id": 18724,
@@ -1262,7 +1376,8 @@
         "viewcount": 580,
         "tags": "|ms-project|gantt|timeline|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 19829,
@@ -1273,7 +1388,8 @@
         "viewcount": 168,
         "tags": "|ms-project|cost-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 19837,
@@ -1284,7 +1400,8 @@
         "viewcount": 461,
         "tags": "|scrum|planning|scheduling|prioritization|technical-debt|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 20042,
@@ -1295,7 +1412,8 @@
         "viewcount": 163,
         "tags": "|planning|initiation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20142,
@@ -1306,7 +1424,8 @@
         "viewcount": 303,
         "tags": "|team-management|project-team|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20198,
@@ -1317,7 +1436,8 @@
         "viewcount": 195,
         "tags": "|scrum|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20212,
@@ -1328,7 +1448,8 @@
         "viewcount": 120,
         "tags": "|software-development|clients|small-projects|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20239,
@@ -1339,7 +1460,8 @@
         "viewcount": 2301,
         "tags": "|agile|story-points|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 20358,
@@ -1350,7 +1472,8 @@
         "viewcount": 1494,
         "tags": "|jira|tasks|task-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20397,
@@ -1361,7 +1484,8 @@
         "viewcount": 324,
         "tags": "|agile|communication|pmp|ms-project-2010|pmi-framework|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20578,
@@ -1372,7 +1496,8 @@
         "viewcount": 121,
         "tags": "|software-development|requirements|product-management|development-process|technical-debt|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20717,
@@ -1383,7 +1508,8 @@
         "viewcount": 318,
         "tags": "|software-development|software|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 20796,
@@ -1394,7 +1520,8 @@
         "viewcount": 8013,
         "tags": "|scrum|meetings|daily-scrum|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21058,
@@ -1405,7 +1532,8 @@
         "viewcount": 5685,
         "tags": "|scrum|agile|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21202,
@@ -1416,7 +1544,8 @@
         "viewcount": 1929,
         "tags": "|scrum|agile|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21223,
@@ -1427,7 +1556,8 @@
         "viewcount": 291,
         "tags": "|methodology|documentation|business-analyst|business-process-mapping|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21388,
@@ -1438,7 +1568,8 @@
         "viewcount": 1299,
         "tags": "|scrum|agile|software-development|kanban|development-process|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21399,
@@ -1449,7 +1580,8 @@
         "viewcount": 1180,
         "tags": "|agile|team|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21409,
@@ -1460,7 +1592,8 @@
         "viewcount": 2479,
         "tags": "|scrum|user-stories|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21467,
@@ -1471,7 +1604,8 @@
         "viewcount": 956,
         "tags": "|scrum|agile|scrum-master|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21575,
@@ -1482,7 +1616,8 @@
         "viewcount": 1148,
         "tags": "|scrum|agile|planning|meetings|sprint-backlog|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21586,
@@ -1493,7 +1628,8 @@
         "viewcount": 863,
         "tags": "|scrum|agile|pm-software|pivotal-tracker|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21588,
@@ -1504,7 +1640,8 @@
         "viewcount": 116,
         "tags": "|scrum|agile|pm-software|pivotal-tracker|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21666,
@@ -1515,7 +1652,8 @@
         "viewcount": 494,
         "tags": "|scrum|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 21696,
@@ -1526,7 +1664,8 @@
         "viewcount": 499,
         "tags": "|scrum|testing|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21741,
@@ -1537,7 +1676,8 @@
         "viewcount": 116,
         "tags": "|deadline|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21749,
@@ -1548,7 +1688,8 @@
         "viewcount": 168,
         "tags": "|scrum|agile|estimation|bugs|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 21912,
@@ -1559,7 +1700,8 @@
         "viewcount": 433,
         "tags": "|retrospective|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22052,
@@ -1570,7 +1712,8 @@
         "viewcount": 1127,
         "tags": "|scrum|agile|tfs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22100,
@@ -1581,7 +1724,8 @@
         "viewcount": 4444,
         "tags": "|scrum|agile|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 22155,
@@ -1592,7 +1736,8 @@
         "viewcount": 520,
         "tags": "|user-stories|scrum-master|product-management|product-owner|planning-poker|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 22361,
@@ -1603,7 +1748,8 @@
         "viewcount": 433,
         "tags": "|team-management|planning|development-process|organizational-structure|process-improvement|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22481,
@@ -1614,7 +1760,8 @@
         "viewcount": 101,
         "tags": "|ms-project|project-management-style|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22680,
@@ -1625,7 +1772,8 @@
         "viewcount": 2331,
         "tags": "|scrum|requirements|tfs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22716,
@@ -1636,7 +1784,8 @@
         "viewcount": 992,
         "tags": "|scrum|agile|project-management-style|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22753,
@@ -1647,7 +1796,8 @@
         "viewcount": 426,
         "tags": "|scrum|sprint|product-owner|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22807,
@@ -1658,7 +1808,8 @@
         "viewcount": 130,
         "tags": "|scrum|agile|planning|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 22849,
@@ -1669,7 +1820,8 @@
         "viewcount": 669,
         "tags": "|scrum|product-owner|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 22900,
@@ -1680,7 +1832,8 @@
         "viewcount": 182,
         "tags": "|agile|scrum-master|definition-of-done|agile-coach|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23111,
@@ -1691,7 +1844,8 @@
         "viewcount": 247,
         "tags": "|scrum|agile|maintenance|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 23166,
@@ -1702,7 +1856,8 @@
         "viewcount": 161,
         "tags": "|estimation|story-points|pivotal-tracker|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23167,
@@ -1713,7 +1868,8 @@
         "viewcount": 66,
         "tags": "|estimation|pivotal-tracker|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23261,
@@ -1724,7 +1880,8 @@
         "viewcount": 716,
         "tags": "|software-development|metrics|measurement|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23331,
@@ -1735,7 +1892,8 @@
         "viewcount": 4936,
         "tags": "|jira|bugs|epics|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 23376,
@@ -1746,7 +1904,8 @@
         "viewcount": 413,
         "tags": "|agile|sprint|scope|release-planning|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23500,
@@ -1757,7 +1916,8 @@
         "viewcount": 605,
         "tags": "|user-stories|business-case|value|business-process-mapping|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23606,
@@ -1768,7 +1928,8 @@
         "viewcount": 284,
         "tags": "|agile|requirements|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 23647,
@@ -1779,7 +1940,8 @@
         "viewcount": 175,
         "tags": "|software-development|project-management-style|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23744,
@@ -1790,7 +1952,8 @@
         "viewcount": 284,
         "tags": "|scrum|agile|product-owner|technical-leader|customer-satisfaction|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 23753,
@@ -1801,7 +1964,8 @@
         "viewcount": 308,
         "tags": "|scrum|user-stories|prioritization|sprint-backlog|technical-leader|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 23801,
@@ -1812,7 +1976,8 @@
         "viewcount": 4585,
         "tags": "|agile|jira|project-management-style|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23809,
@@ -1823,7 +1988,8 @@
         "viewcount": 76,
         "tags": "|agile|pm-software|tfs|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 23836,
@@ -1834,7 +2000,8 @@
         "viewcount": 181,
         "tags": "|agile|stakeholders|scope|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 23888,
@@ -1845,7 +2012,8 @@
         "viewcount": 132,
         "tags": "|scrum|refinement|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24167,
@@ -1856,7 +2024,8 @@
         "viewcount": 2005,
         "tags": "|scrum|scrum-master|agile-coach|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24231,
@@ -1867,7 +2036,8 @@
         "viewcount": 346,
         "tags": "|agile|pm-software|jira|tfs|vsts|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24396,
@@ -1878,7 +2048,8 @@
         "viewcount": 905,
         "tags": "|scrum|agile|team-management|performance|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24436,
@@ -1889,7 +2060,8 @@
         "viewcount": 4401,
         "tags": "|scrum|sprint|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24486,
@@ -1900,7 +2072,8 @@
         "viewcount": 2270,
         "tags": "|scrum|agile|scrum-master|team-size|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24493,
@@ -1911,7 +2084,8 @@
         "viewcount": 2842,
         "tags": "|scrum|sprint|sprint-planning|product-backlog|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24498,
@@ -1922,7 +2096,8 @@
         "viewcount": 3422,
         "tags": "|scrum|scrum-master|product-owner|technical-debt|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24551,
@@ -1933,7 +2108,8 @@
         "viewcount": 3625,
         "tags": "|product-owner|sprint-planning|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24606,
@@ -1944,7 +2120,8 @@
         "viewcount": 77,
         "tags": "|scheduling|schedule-risk|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24669,
@@ -1955,7 +2132,8 @@
         "viewcount": 775,
         "tags": "|scrum|product-owner|human-resources|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24688,
@@ -1966,7 +2144,8 @@
         "viewcount": 312,
         "tags": "|scrum|planning|sprint|kpi|measurement|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24695,
@@ -1977,7 +2156,8 @@
         "viewcount": 1496,
         "tags": "|deadline|fixed-price|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24807,
@@ -1988,7 +2168,8 @@
         "viewcount": 3000,
         "tags": "|scrum|agile|sprint|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24889,
@@ -1999,7 +2180,8 @@
         "viewcount": 2438,
         "tags": "|scrum|agile|sprint|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24897,
@@ -2010,7 +2192,8 @@
         "viewcount": 109,
         "tags": "|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 24904,
@@ -2021,7 +2204,8 @@
         "viewcount": 130,
         "tags": "|devops|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 24992,
@@ -2032,7 +2216,8 @@
         "viewcount": 2667,
         "tags": "|scrum|agile|scrum-master|product-owner|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 25105,
@@ -2043,7 +2228,8 @@
         "viewcount": 140,
         "tags": "|agile|sprint|kanban-board|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 25159,
@@ -2054,7 +2240,8 @@
         "viewcount": 2345,
         "tags": "|team-management|tasks|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 25391,
@@ -2065,7 +2252,8 @@
         "viewcount": 2914,
         "tags": "|scrum|agile|jira|sprint|backlog|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 25671,
@@ -2076,7 +2264,8 @@
         "viewcount": 774,
         "tags": "|agile|planning|estimation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 25683,
@@ -2087,7 +2276,8 @@
         "viewcount": 906,
         "tags": "|scrum|user-stories|jira|sprint|sprint-planning|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 25719,
@@ -2098,7 +2288,8 @@
         "viewcount": 761,
         "tags": "|scrum|software-development|user-stories|development-process|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 25767,
@@ -2109,7 +2300,8 @@
         "viewcount": 304,
         "tags": "|motivation|performance|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 25872,
@@ -2120,7 +2312,8 @@
         "viewcount": 293,
         "tags": "|team-management|cost-management|human-resources|budget|constraints|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 25900,
@@ -2131,7 +2324,8 @@
         "viewcount": 533,
         "tags": "|scrum|agile|project-management-style|micro-management|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 26011,
@@ -2142,7 +2336,8 @@
         "viewcount": 1712,
         "tags": "|scrum|agile|sprint|velocity|technical-debt|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26070,
@@ -2153,7 +2348,8 @@
         "viewcount": 374,
         "tags": "|software-development|quality|quality-management|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 26106,
@@ -2164,7 +2360,8 @@
         "viewcount": 337,
         "tags": "|scrum|agile|planning|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 26133,
@@ -2175,7 +2372,8 @@
         "viewcount": 251,
         "tags": "|scrum|sprint|development-process|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26149,
@@ -2186,7 +2384,8 @@
         "viewcount": 1021,
         "tags": "|scrum|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26220,
@@ -2197,7 +2396,8 @@
         "viewcount": 990,
         "tags": "|scrum|agile|sprint-backlog|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 26339,
@@ -2208,7 +2408,8 @@
         "viewcount": 563,
         "tags": "|bugs|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26369,
@@ -2219,7 +2420,8 @@
         "viewcount": 56,
         "tags": "|team-management|project-management-style|open-source|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26555,
@@ -2230,7 +2432,8 @@
         "viewcount": 198,
         "tags": "|scrum|user-stories|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26602,
@@ -2241,7 +2444,8 @@
         "viewcount": 145,
         "tags": "|kanban|prioritization|work-in-progress|",
         "answercount": 1,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "Yes"
     },
     {
         "id": 26616,
@@ -2252,7 +2456,8 @@
         "viewcount": 1292,
         "tags": "|scrum|planning|bugs|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 26621,
@@ -2263,7 +2468,8 @@
         "viewcount": 235,
         "tags": "|scrum|software-development|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 26695,
@@ -2274,7 +2480,8 @@
         "viewcount": 1228,
         "tags": "|scrum|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 26909,
@@ -2285,7 +2492,8 @@
         "viewcount": 135,
         "tags": "|estimation|testing|software|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 27208,
@@ -2296,7 +2504,8 @@
         "viewcount": 9703,
         "tags": "|scrum|sprint|sprint-planning|timeboxing|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 27773,
@@ -2307,7 +2516,8 @@
         "viewcount": 297,
         "tags": "|scrum|kanban|project-management-style|multi-projects|multi-team|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 27909,
@@ -2318,7 +2528,8 @@
         "viewcount": 10386,
         "tags": "|product-owner|motivation|startup|",
         "answercount": 12,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 28012,
@@ -2329,7 +2540,8 @@
         "viewcount": 4091,
         "tags": "|scrum|agile|jira|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 28023,
@@ -2340,7 +2552,8 @@
         "viewcount": 238,
         "tags": "|scrum|agile|estimation|story-points|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 28226,
@@ -2351,7 +2564,8 @@
         "viewcount": 272,
         "tags": "|scrum|agile|scrum-ceremonies|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 28228,
@@ -2362,7 +2576,8 @@
         "viewcount": 9069,
         "tags": "|scrum|agile|estimation|user-stories|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 28288,
@@ -2373,7 +2588,8 @@
         "viewcount": 2773,
         "tags": "|scrum|agile|team-management|jira|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 29584,
@@ -2384,7 +2600,8 @@
         "viewcount": 5881,
         "tags": "|scrum|jira|testing|bugs|velocity|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 29724,
@@ -2395,7 +2612,8 @@
         "viewcount": 234,
         "tags": "|agile|team-management|sprint|motivation|velocity|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 29868,
@@ -2406,7 +2624,8 @@
         "viewcount": 167,
         "tags": "|user-stories|acceptance-criteria|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 29946,
@@ -2417,7 +2636,8 @@
         "viewcount": 361,
         "tags": "|scrum|agile|sprint|product-backlog|sprint-goal|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 30136,
@@ -2428,7 +2648,8 @@
         "viewcount": 663,
         "tags": "|scrum|agile|software-development|schedule-risk|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 30622,
@@ -2439,7 +2660,8 @@
         "viewcount": 364,
         "tags": "|team-management|deadline|goals|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 30775,
@@ -2450,7 +2672,8 @@
         "viewcount": 615,
         "tags": "|scrum|estimation|story-points|backlog|dependencies|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 31076,
@@ -2461,7 +2684,8 @@
         "viewcount": 123,
         "tags": "|scrum|user-stories|backlog|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes"
     },
     {
         "id": 31094,
@@ -2472,7 +2696,8 @@
         "viewcount": 512,
         "tags": "|scrum|agile|sprint|sprint-planning|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     },
     {
         "id": 31155,
@@ -2483,6 +2708,7 @@
         "viewcount": 781,
         "tags": "|scrum|value|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No"
     }
 ]

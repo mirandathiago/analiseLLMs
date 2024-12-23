@@ -8,7 +8,10 @@
         "viewcount": 2351,
         "tags": "|process|roles|human-resources|maintenance|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "Good",
+        "Justification": "While the discussion addresses challenges related to productivity and morale, it does not explicitly mention technical debt (TD) or provide clear indicators of TD within the context of Agile Software Development (ASD). The focus is more on team management and support tasks rather than on technical debt issues."
     },
     {
         "id": 871,
@@ -19,7 +22,10 @@
         "viewcount": 7162,
         "tags": "|pmp|certification|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "Terrible",
+        "Justification": "The discussion is unrelated to Technical Debt (TD) or Agile Software Development (ASD). It focuses on the value of project management certifications without any mention of TD indicators or real-world scenarios related to software development."
     },
     {
         "id": 888,
@@ -30,7 +36,10 @@
         "viewcount": 847,
         "tags": "|development-process|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses a real-world scenario involving a messy software project, which implicitly indicates technical debt (TD) due to the lack of adherence to best practices. It reflects on the challenges faced when dealing with a project that has become difficult to maintain, which aligns with TD indicators. The context of managing a project nearing completion suggests a connection to Agile Software Development (ASD) practices, although it could benefit from more explicit references to Agile methodologies."
     },
     {
         "id": 1264,
@@ -41,7 +50,10 @@
         "viewcount": 174,
         "tags": "|politics|customer-satisfaction|relationships|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on criteria for deciding whether to do work beyond project scope without any mention of TD indicators or real-world scenarios related to technical debt."
     },
     {
         "id": 1279,
@@ -52,7 +64,10 @@
         "viewcount": 17341,
         "tags": "|project-team|technical-leader|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on the role of a technical architect in project management without any mention of TD indicators or real-world scenarios involving technical debt."
     },
     {
         "id": 1539,
@@ -63,7 +78,10 @@
         "viewcount": 51154,
         "tags": "|quality|quality-management|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on measuring quality in software development but does not mention technical debt (TD) or any indicators of TD. It lacks a real-world scenario and does not relate to Agile Software Development (ASD), making it irrelevant to the study's criteria."
     },
     {
         "id": 1725,
@@ -74,7 +92,10 @@
         "viewcount": 2113,
         "tags": "|agile|books|learning|",
         "answercount": 12,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) or its indicators within the context of Agile Software Development (ASD). It focuses on seeking resources for learning project management and does not provide any real-world scenarios or experiences related to TD."
     },
     {
         "id": 2043,
@@ -85,7 +106,10 @@
         "viewcount": 1108,
         "tags": "|team-management|human-resources|team-building|motivation|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on hiring and motivating a new programmer, which does not relate to Technical Debt (TD) or Agile Software Development (ASD). There are no explicit or implicit references to TD indicators, and the scenario is hypothetical without real-world examples of TD challenges."
     },
     {
         "id": 2212,
@@ -96,18 +120,24 @@
         "viewcount": 418,
         "tags": "|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the concept of gamification in Agile teams and does not address Technical Debt (TD) or any related indicators. It lacks real-world scenarios or lived experiences related to TD, and there are no explicit or implicit references to TD within the context of Agile Software Development (ASD)."
     },
     {
         "id": 2309,
         "title": "How do you schedule maintenance work in Scrum?",
-        "body": "<p>What are some of the different patterns you use to schedule maintenance work (any non-feature work like bug fixes, technical debt reduction, etc.)?  In our organization, we've considered mash-ups of the following:</p>\n\n<ul>\n<li>Finish feature commitments and then peel off teams for maintenance work during test or warranty cycles</li>\n<li>Bug Quash (a social event where the goal is to fix, or �quash�, as many bugs as is humanly possible in a time-boxed period)</li>\n<li>Schedule fixed capacity up front in each release (e.g. plan for 1 sprint per team in a release)</li>\n<li>Dedicated full-time bugmeister to triage and coordinate fixes with teams</li>\n<li>Ping-pong the maintenance work between off-shore teams</li>\n</ul>\n\n<p>Note, we follow two guiding principles in this area of practice:</p>\n\n<ol>\n<li>People should fix their own bugs to the extent possible</li>\n<li>No dedicated maintenance teams</li>\n</ol>\n\n<p>Note, too, the reality is we have bugs.  Please don't tell me to find a way to eliminate bugs so that we don't have to worry about solving for this problem.  I'm interested in other ideas about how to approach the problem.  </p>\n\n<p>(P.S. credit <a href=\"http://blog.natebeck.net/about/\">Nate Beck</a> for the Bug Quash idea - thanks Nate!)</p>\n",
+        "body": "<p>What are some of the different patterns you use to schedule maintenance work (any non-feature work like bug fixes, technical debt reduction, etc.)?  In our organization, we've considered mash-ups of the following:</p>\n\n<ul>\n<li>Finish feature commitments and then peel off teams for maintenance work during test or warranty cycles</li>\n<li>Bug Quash (a social event where the goal is to fix, or \u201cquash\u201d, as many bugs as is humanly possible in a time-boxed period)</li>\n<li>Schedule fixed capacity up front in each release (e.g. plan for 1 sprint per team in a release)</li>\n<li>Dedicated full-time bugmeister to triage and coordinate fixes with teams</li>\n<li>Ping-pong the maintenance work between off-shore teams</li>\n</ul>\n\n<p>Note, we follow two guiding principles in this area of practice:</p>\n\n<ol>\n<li>People should fix their own bugs to the extent possible</li>\n<li>No dedicated maintenance teams</li>\n</ol>\n\n<p>Note, too, the reality is we have bugs.  Please don't tell me to find a way to eliminate bugs so that we don't have to worry about solving for this problem.  I'm interested in other ideas about how to approach the problem.  </p>\n\n<p>(P.S. credit <a href=\"http://blog.natebeck.net/about/\">Nate Beck</a> for the Bug Quash idea - thanks Nate!)</p>\n",
         "score": 19,
         "creationdate": "2011-05-18T06:04:37.243000",
         "viewcount": 2954,
         "tags": "|scrum|planning|maintenance|defect-fixing|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion explicitly addresses the scheduling of maintenance work, including technical debt reduction, within the context of Scrum, which is a framework of Agile Software Development (ASD). It provides real-world examples of practices and principles related to managing technical debt and bug fixes, making it highly relevant for analysis. The focus on practical approaches to integrating maintenance work into the development process aligns well with the inclusion criteria."
     },
     {
         "id": 2316,
@@ -118,7 +148,10 @@
         "viewcount": 7540,
         "tags": "|agile|scrum|planning|sprint|backlog|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion raises a question about handling user stories that cannot be split within Agile methodologies, but it does not explicitly mention technical debt (TD) or any indicators of TD. The focus is on user story management rather than on the implications of TD in the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 2434,
@@ -129,7 +162,10 @@
         "viewcount": 1318,
         "tags": "|progress-monitor|timeline|timekeeping|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on encouraging accurate work logging and does not provide any indicators of TD or real-world scenarios involving technical debt."
     },
     {
         "id": 2635,
@@ -140,7 +176,10 @@
         "viewcount": 2550,
         "tags": "|metrics|quality|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on leading metrics for predicting software failures and issues after release, but it does not explicitly mention technical debt (TD) or provide indicators of TD. It lacks a real-world scenario based on lived experience and does not relate to Agile Software Development (ASD), making it irrelevant to the study's criteria."
     },
     {
         "id": 2659,
@@ -151,7 +190,10 @@
         "viewcount": 895,
         "tags": "|software-development|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the role of project management in defining code style rather than addressing Technical Debt (TD) or its indicators. While it mentions the importance of readable and maintainable code, it does not provide a real-world scenario related to TD or Agile Software Development (ASD), nor does it explicitly connect to TD management practices."
     },
     {
         "id": 2765,
@@ -162,7 +204,10 @@
         "viewcount": 98029,
         "tags": "|agile|scrum|estimation|story-points|",
         "answercount": 19,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the use of story points for estimating project work and does not mention technical debt (TD) or any indicators of TD. It lacks a real-world scenario related to TD and does not connect to Agile Software Development (ASD) in a way that addresses TD management."
     },
     {
         "id": 3284,
@@ -173,7 +218,10 @@
         "viewcount": 736,
         "tags": "|tracking|evm|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on challenges related to Earned Value Analysis in project management, but it does not explicitly or implicitly address Technical Debt (TD) or its indicators. The content is more about project scheduling and task management rather than any issues related to technical debt in the context of Agile Software Development (ASD)."
     },
     {
         "id": 3343,
@@ -184,7 +232,10 @@
         "viewcount": 3017,
         "tags": "|planning|tasks|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the relationship between action items and user stories in agile methodologies but does not address Technical Debt (TD) or any indicators of TD. It lacks real-world scenarios related to TD and does not connect to the challenges of managing TD within Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 3953,
@@ -195,7 +246,10 @@
         "viewcount": 3184,
         "tags": "|team-management|motivation|team-building|",
         "answercount": 11,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on team burnout and potential solutions for managing developer workload, but it does not explicitly or implicitly address Technical Debt (TD) or provide any indicators of TD within the context of Agile Software Development (ASD). The content is more about team management and does not relate to technical debt issues."
     },
     {
         "id": 4037,
@@ -206,7 +260,10 @@
         "viewcount": 1432,
         "tags": "|software-development|motivation|project-team|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the issue of technical debt (TD) within the context of Agile Software Development (ASD), specifically highlighting the impact of TD on team morale and burnout. It describes a real-world scenario where the team is considering rotating developers between projects to mitigate these issues, which aligns with TD indicators such as low morale and challenges in software development. While it does not explicitly define TD indicators, the context and lived experiences shared make it relevant for inclusion."
     },
     {
         "id": 4194,
@@ -217,7 +274,10 @@
         "viewcount": 548,
         "tags": "|team-management|training|product-management|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on training methods for new team members and does not address Technical Debt (TD) or any related indicators. It lacks any connection to Agile Software Development (ASD) and does not describe an existing scenario related to TD, making it irrelevant for inclusion in the study."
     },
     {
         "id": 4285,
@@ -228,18 +288,24 @@
         "viewcount": 4327,
         "tags": "|agile|planning|software-development|requirements|resource-planning|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on managing non-functional requirements ('ilities') and their prioritization in project planning. While it touches on aspects of software quality, it does not explicitly mention technical debt (TD) or provide indicators of TD within the context of Agile Software Development (ASD). The content is more about project management and prioritization rather than addressing existing scenarios related to TD."
     },
     {
         "id": 4635,
         "title": "With Scrum, how do you keep from dropping the little things?",
-        "body": "<p>We've moved our group's workflow to a scrum-based approach, with a lot of success. We're getting things done, people are more engaged, and we're more focused on our actual user community's needs.</p>\n\n<p>Because we needed to work on processes over tools, we're using physical cards on a backlog board and a task board. This works pretty well, although we're probably going to move to an electronic version eventually as we're starting to get more remote team members.</p>\n\n<p>This works very well for \"right sized\" user stories. But how do we deal with things that are really too small for a user story? Sometimes these are bugs/defects, or sometimes they're just really small feature requests or enhancements. For example, our Gitorious installation appends a superfluous <code>s</code>  to repository names when one makes a clone. It'd be nicer if it didn't.</p>\n\n<p>One <em>could</em> write user stories for every thing like this (which is what we do), but a) it feels overweight and not at all \"agile\" and b) such stories inevitably get scheduled below bigger, more important things, even though they're often low-hanging fruit (small effort for small but noticeable results).</p>\n\n<p>Or, one could have a separate issue tracker. However, that suddenly goes from one place to look for work � the scrum task board � to having two tools. Is there a good way to integrate these things so they don't act in opposition to each other?</p>\n\n<p>Or, one could just leave these things out of the process and shout them at each other across the room. There's a serious risk of this becoming the <em>de facto</em> process if I don't fix this. When this works, it's basically fine, but it's problematic because a) it can disrupt productivity when people get distracted from their other work by unscheduled interruptions and b) when these issues aren't immediately fixed, they can (as the question title) get dropped.</p>\n",
+        "body": "<p>We've moved our group's workflow to a scrum-based approach, with a lot of success. We're getting things done, people are more engaged, and we're more focused on our actual user community's needs.</p>\n\n<p>Because we needed to work on processes over tools, we're using physical cards on a backlog board and a task board. This works pretty well, although we're probably going to move to an electronic version eventually as we're starting to get more remote team members.</p>\n\n<p>This works very well for \"right sized\" user stories. But how do we deal with things that are really too small for a user story? Sometimes these are bugs/defects, or sometimes they're just really small feature requests or enhancements. For example, our Gitorious installation appends a superfluous <code>s</code>  to repository names when one makes a clone. It'd be nicer if it didn't.</p>\n\n<p>One <em>could</em> write user stories for every thing like this (which is what we do), but a) it feels overweight and not at all \"agile\" and b) such stories inevitably get scheduled below bigger, more important things, even though they're often low-hanging fruit (small effort for small but noticeable results).</p>\n\n<p>Or, one could have a separate issue tracker. However, that suddenly goes from one place to look for work \u2014 the scrum task board \u2014 to having two tools. Is there a good way to integrate these things so they don't act in opposition to each other?</p>\n\n<p>Or, one could just leave these things out of the process and shout them at each other across the room. There's a serious risk of this becoming the <em>de facto</em> process if I don't fix this. When this works, it's basically fine, but it's problematic because a) it can disrupt productivity when people get distracted from their other work by unscheduled interruptions and b) when these issues aren't immediately fixed, they can (as the question title) get dropped.</p>\n",
         "score": 15,
         "creationdate": "2012-02-14T13:55:37.613000",
         "viewcount": 629,
         "tags": "|scrum|process|tasks|defect-fixing|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around managing small tasks and bugs within a Scrum framework but does not explicitly address Technical Debt (TD) or provide clear indicators of TD. While it mentions the risk of dropping issues, it lacks a direct connection to TD management or lived experiences related to TD in Agile Software Development (ASD)."
     },
     {
         "id": 4875,
@@ -250,7 +316,10 @@
         "viewcount": 11349,
         "tags": "|agile|scrum|sprint|",
         "answercount": 10,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion presents a hypothetical scenario regarding a Scrum Master's actions when sprint goals are at risk. It does not provide an existing scenario based on lived experience, nor does it mention any indicators of technical debt (TD) or relate to Agile Software Development (ASD) in a meaningful way."
     },
     {
         "id": 5037,
@@ -261,7 +330,10 @@
         "viewcount": 848,
         "tags": "|time-management|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on a situation involving a cancelled project and the financial implications for a consulting firm, without any mention of TD indicators or Agile practices."
     },
     {
         "id": 5339,
@@ -272,7 +344,10 @@
         "viewcount": 696,
         "tags": "|scrum|tracking|sprint|bugs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on tracking points spent on bugs during a sprint, which does not explicitly relate to Technical Debt (TD) or its indicators. While it addresses issues in sprint planning and task scoring, it lacks a clear connection to TD management or Agile Software Development (ASD) practices. The content does not describe an existing scenario of TD or provide lived experiences related to TD."
     },
     {
         "id": 5345,
@@ -283,7 +358,10 @@
         "viewcount": 796,
         "tags": "|estimation|product-management|deadline|subcontractor|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) within the context of Agile Software Development (ASD). While it mentions challenges related to project management and user satisfaction, it lacks clear indicators of TD, such as poor-quality code or lack of documentation. Additionally, the focus is on the project's outcome and user needs rather than on technical aspects or debt management."
     },
     {
         "id": 5439,
@@ -294,7 +372,10 @@
         "viewcount": 734,
         "tags": "|team-management|software-development|communication|project-team|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on quantifying developer productivity and the implications of Project Managers grading developers. It does not mention technical debt (TD) or any indicators of TD, nor does it relate to Agile Software Development (ASD) practices. The content is more about performance evaluation rather than addressing issues related to technical debt."
     },
     {
         "id": 5521,
@@ -305,7 +386,10 @@
         "viewcount": 845,
         "tags": "|planning|scheduling|infrastructure|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) as it focuses on a decision-making scenario regarding project implementation in a waterfall context. There are no explicit or implicit references to TD indicators, and it does not address Agile Software Development (ASD), which is a requirement for inclusion."
     },
     {
         "id": 6305,
@@ -316,7 +400,10 @@
         "viewcount": 4803,
         "tags": "|ms-project|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion is focused on project management tasks in MS Project and does not relate to Technical Debt (TD) or Agile Software Development (ASD). It does not mention any indicators of TD or provide a real-world scenario that connects to the context of TD management."
     },
     {
         "id": 6387,
@@ -327,7 +414,10 @@
         "viewcount": 1277,
         "tags": "|team-management|time-management|",
         "answercount": 10,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on managing varying working hours among developers and the impact on morale and productivity. However, it does not explicitly or implicitly relate to Technical Debt (TD) or Agile Software Development (ASD). There are no references to TD indicators or scenarios that would connect this discussion to the research study on TD."
     },
     {
         "id": 6509,
@@ -338,7 +428,10 @@
         "viewcount": 752,
         "tags": "|scrum|planning|schedule-risk|timeboxing|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the challenges of managing support issues in a legacy project, which is a clear indicator of technical debt (TD). It describes a real-world scenario based on lived experience and mentions the impact of unplanned issues on project velocity. The reference to 'quality stories' indicates an effort to improve the codebase, aligning with TD management practices in Agile Software Development (ASD). However, it could provide more depth on specific TD indicators."
     },
     {
         "id": 6546,
@@ -349,7 +442,10 @@
         "viewcount": 1432,
         "tags": "|communication|knowledge-management|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly within the context of Agile Software Development (ASD). It focuses on a proposal for a workflow improvement and does not provide any real-world examples or scenarios related to TD."
     },
     {
         "id": 6698,
@@ -360,7 +456,10 @@
         "viewcount": 1790,
         "tags": "|scrum|agile|estimation|scheduling|rally|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around tracking time and metrics in Agile but does not explicitly or implicitly address Technical Debt (TD) or its indicators. It focuses on project management practices rather than any challenges or scenarios related to TD in the context of Agile Software Development (ASD)."
     },
     {
         "id": 6717,
@@ -371,7 +470,10 @@
         "viewcount": 13990,
         "tags": "|time-management|",
         "answercount": 15,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on management techniques and the implications of imposing deadlines, without any mention of TD indicators or real-world scenarios involving technical debt in a software development context."
     },
     {
         "id": 7867,
@@ -382,7 +484,10 @@
         "viewcount": 5505,
         "tags": "|metrics|reporting|bugs|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on metrics for evaluating the effectiveness of bug fixes but does not explicitly mention technical debt (TD) or relate to Agile Software Development (ASD). It lacks references to TD indicators and does not describe a real-world scenario that connects to the management of technical debt."
     },
     {
         "id": 7904,
@@ -393,7 +498,10 @@
         "viewcount": 3051,
         "tags": "|agile|scrum|team-management|team-building|cross-functional|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion addresses resource balancing and team dynamics within an Agile context but does not explicitly mention Technical Debt (TD) or any indicators of TD. It focuses on workflow issues and team member responsibilities rather than on the consequences of poor code quality, lack of tests, or other TD-related challenges."
     },
     {
         "id": 7912,
@@ -404,7 +512,10 @@
         "viewcount": 3698,
         "tags": "|metrics|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) or its indicators. It focuses on quality objectives and metrics for a project without any mention of technical debt, Agile Software Development (ASD), or real-world scenarios related to TD. The questions posed are more about quality assurance rather than managing or identifying technical debt."
     },
     {
         "id": 7954,
@@ -415,7 +526,10 @@
         "viewcount": 1937,
         "tags": "|planning|prioritization|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly addresses technical debt (TD) and its management within the context of competing business initiatives. It raises relevant questions about planning, prioritizing, and quantifying TD, which are important aspects of managing TD in Agile Software Development (ASD). However, it could benefit from more specific examples or lived experiences to enhance its depth."
     },
     {
         "id": 8059,
@@ -426,7 +540,10 @@
         "viewcount": 4044,
         "tags": "|project-team|communication-management|business-analyst|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on gathering business requirements and the challenges faced by a business analyst in communicating with clients. It does not mention technical debt (TD) or any indicators of TD, nor does it relate to Agile Software Development (ASD). The content is primarily about the role of business analysts and does not provide real-world examples of TD or its implications."
     },
     {
         "id": 8098,
@@ -437,7 +554,10 @@
         "viewcount": 2505,
         "tags": "|agile|scrum|bugs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion explicitly addresses technical debt (TD) that was accumulated during a project and highlights the need to resolve deep-seated issues in the code. It relates directly to the Scrum process by questioning how to account for these technical tasks within sprints. The lived experience of dealing with TD in the context of Agile Software Development (ASD) makes this discussion highly relevant and insightful."
     },
     {
         "id": 8171,
@@ -448,7 +568,10 @@
         "viewcount": 3093,
         "tags": "|software-development|bugs|prioritization|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "While the discussion addresses the prioritization of bug fixes, it does not explicitly mention technical debt (TD) or any indicators of TD. The focus is on the process of managing bug reports rather than on the implications of technical debt within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 8556,
@@ -459,7 +582,10 @@
         "viewcount": 5172,
         "tags": "|scrum|agile|metrics|burn-charts|velocity|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on diagnosing fluctuations in team velocity without any explicit or implicit references to Technical Debt (TD) or its indicators. It does not describe an existing scenario related to TD in the context of Agile Software Development (ASD), making it irrelevant for inclusion."
     },
     {
         "id": 8793,
@@ -470,18 +596,24 @@
         "viewcount": 1092,
         "tags": "|sprint|customer|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on handling incomplete user stories due to customer dependencies and does not explicitly or implicitly address technical debt (TD) or its indicators. While it relates to Agile practices, it lacks any mention of TD or its impact on the development process, making it irrelevant to the study."
     },
     {
         "id": 8809,
         "title": "Why does Pivotal Tracker discourage estimating points for bugs and chores?",
-        "body": "<p>Pivotal Tracker \"strongly discourages\" estimating velocity points for bugs and chores � you have to change a setting and accept a warning to be able to do it.</p>\n\n<p>They explain why <a href=\"https://www.pivotaltracker.com/help/faq#whycantiestimatebugsandchores\">here</a>, but I just don't understand it. Here is an excerpt:</p>\n\n<blockquote>\n  <p>By measuring velocity in terms of features only, Tracker can estimate how much real, business-valued work can be completed in future iteration, allowing you to predict when project milestones might be achieved</p>\n</blockquote>\n\n<p>Chores and bugs take time. How can ignoring this <em>help</em> you to predict when a milestone will be reached?</p>\n\n<p>Say you need to complete three more features to get to the next milestone, and you also need to complete a chore (because one of the features can't be started until that chore is done)... How could discounting the time needed for the chore <em>help</em> you to estimate when the milestone will be reached?</p>\n",
+        "body": "<p>Pivotal Tracker \"strongly discourages\" estimating velocity points for bugs and chores \u2013 you have to change a setting and accept a warning to be able to do it.</p>\n\n<p>They explain why <a href=\"https://www.pivotaltracker.com/help/faq#whycantiestimatebugsandchores\">here</a>, but I just don't understand it. Here is an excerpt:</p>\n\n<blockquote>\n  <p>By measuring velocity in terms of features only, Tracker can estimate how much real, business-valued work can be completed in future iteration, allowing you to predict when project milestones might be achieved</p>\n</blockquote>\n\n<p>Chores and bugs take time. How can ignoring this <em>help</em> you to predict when a milestone will be reached?</p>\n\n<p>Say you need to complete three more features to get to the next milestone, and you also need to complete a chore (because one of the features can't be started until that chore is done)... How could discounting the time needed for the chore <em>help</em> you to estimate when the milestone will be reached?</p>\n",
         "score": 25,
         "creationdate": "2013-02-28T12:49:41.563000",
         "viewcount": 6869,
         "tags": "|agile|estimation|velocity|pivotal-tracker|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly. It focuses on the estimation practices in Pivotal Tracker regarding bugs and chores without connecting these practices to TD indicators or the Agile Software Development (ASD) context. There are no references to lived experiences or scenarios related to TD."
     },
     {
         "id": 9287,
@@ -492,7 +624,10 @@
         "viewcount": 2583,
         "tags": "|roles|quality-management|testing|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly. It focuses on the roles of developers and testers without mentioning any indicators of TD or relating to Agile Software Development (ASD). There are no real-world scenarios or lived experiences that connect to TD management."
     },
     {
         "id": 9338,
@@ -503,7 +638,10 @@
         "viewcount": 2556,
         "tags": "|documentation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on improving the documentation process within a team, which does not explicitly relate to Technical Debt (TD) or Agile Software Development (ASD). While it mentions issues with documentation, it does not define any TD indicators or describe a scenario that connects to TD management in the context of Agile practices."
     },
     {
         "id": 9538,
@@ -514,7 +652,10 @@
         "viewcount": 13730,
         "tags": "|scrum|agile|sprint|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "While the discussion mentions the possibility of reducing technical debt, it primarily revolves around hypothetical scenarios regarding sprint management and does not describe an existing scenario based on lived experience. Additionally, there are not enough explicit or implicit references to clearly identify a technical debt indicator in the context of Agile Software Development."
     },
     {
         "id": 9631,
@@ -525,18 +666,24 @@
         "viewcount": 3400,
         "tags": "|scrum|agile|software-development|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the challenges of balancing user-facing stories with the need for significant infrastructure improvements, which is a clear indicator of technical debt (TD). It describes a real-world scenario where the team is struggling to manage TD while following Agile practices, specifically Scrum. However, while it touches on TD, it could provide more depth on the implications of these challenges on the overall development process."
     },
     {
         "id": 9674,
         "title": "Title/subject formalism in bug reports (standardising bug naming only): I was <context>, I did <action>, I got <actual behaviour>",
-        "body": "<h2>Intro</h2>\n\n<p>We use different formalisms in <strong><em>titles</em></strong>/<em><strong>subjects</em></strong> for different purposes (story, feature, test), but we have no formalism for bug reports...</p>\n\n<p>We are investigating the advantages of a <strong><em>standardised title format for bugs</em></strong>.</p>\n\n<h2>Different formalisms for <em>titles</em>/*subjects* in use, practically</h2>\n\n<p>We use with quite a success these formalisms in <strong>titles</strong>/*<em>subjects</em>* .</p>\n\n<h3>Story title</h3>\n\n<p>For Scrum stories, we use the following title formalism:</p>\n\n<pre><code>As a &lt;role&gt;, I want &lt;goal/desire&gt; so that &lt;benefit&gt;\n</code></pre>\n\n<h3>Feature title</h3>\n\n<p>For FDD (Feature-Driven Development) features, we use the following title formalism:</p>\n\n<pre><code>&lt;action&gt; the &lt;result&gt; &lt;by|for|of|to&gt; a(n) &lt;object&gt;\n</code></pre>\n\n<h3>Tests formalism</h3>\n\n<p>For Acceptance Tests (behaviour), we use the following formalism:</p>\n\n<pre><code>GIVEN THAT &lt;conditions&gt;/&lt;initial state&gt;/&lt;context&gt; (no action)\nWHEN &lt;actions&gt; (performed by user)\nTHEN &lt;expected results&gt;/&lt;consequences&gt; (that the system does)\n</code></pre>\n\n<h2>Looking for a bug title formalism</h2>\n\n<h3>Title/subject formalism</h3>\n\n<p>For bug reports, we think we are going to adopt a title formalism close to:</p>\n\n<pre><code>I was &lt;context&gt;, I did &lt;action&gt;, I got &lt;actual behaviour&gt;\n</code></pre>\n\n<p><strong>I only focus here on the title, not the full description!</strong></p>\n\n<p>Advantages:</p>\n\n<ul>\n<li>homogeneity across teams (when bugs needs to be passed over)</li>\n<li>strictness for better description and understanding</li>\n<li>mapping of:\n<ul>\n<li>the bug's 'context' to the acceptance test's 'context'</li>\n<li>the bug's 'actual behaviour' to the acceptance test's 'expected results'</li>\n</ul></li>\n</ul>\n\n<p>Disadvantages:</p>\n\n<ul>\n<li>it is a change to introduce, document, promote, and followup in the project</li>\n<li>you name it</li>\n</ul>\n\n<h3>Guidelines for the title/subject</h3>\n\n<p>But this formalism is not enough for just a title, as it may need a few guidelines:</p>\n\n<ul>\n<li>should be as short as possible</li>\n<li>do not mention a technical component or feature, as the guess and confirmation is part of the investigation and not the purpose of the creation of the bug</li>\n<li>do not make any assumption or guess</li>\n<li>just basically describe as briefly as possible the context, action, and actual behaviour, because anyway it will be detailed in the full description</li>\n<li>do not not add any markup like [stuff] or (thing), because it hinders the reading</li>\n<li>do not add any team-specific keywords, as a bug is supposed to be passed from team to team</li>\n<li>do not try to solve the issue at the reporting phase, it is the task of the assignee</li>\n<li>bring the right balance/dichotomy between barely perimetered issue, and fully understood, as in one hand it is too vague, and on the other hand the resolution is almost finished</li>\n<li>stay meaningful</li>\n</ul>\n\n<h3>�Full description (not the goal of this post)</h3>\n\n<p>Of course, this is not the goal of this post, but in the full description of the bug free text), there will be:</p>\n\n<ul>\n<li>Context</li>\n<li>Steps to reproduce</li>\n<li>Actual behaviour</li>\n<li>Expected results</li>\n<li>Optionnally\n<ul>\n<li>links to docs</li>\n<li>logs</li>\n<li>diagrams</li>\n<li>screenshots</li>\n<li>...</li>\n</ul></li>\n</ul>\n\n<p>With all the fields of the bug tracker software, like affected/fix versions, severity, priority, links to other tickets, etc.</p>\n\n<p>But this is not the subject of this post...</p>\n\n<p>Let's get back to the bug <strong>titles</strong>/*<em>subjects</em>*.</p>\n\n<h2>Open questions on bug titles</h2>\n\n<ul>\n<li>Do you think it is worth to put up such a <strong>title</strong>/*<em>subject</em>* formalism in place?</li>\n<li>How do you <strong>name</strong> you bugs? (how you fully describe and manage bugs is not the goal of this discussion)</li>\n</ul>\n",
+        "body": "<h2>Intro</h2>\n\n<p>We use different formalisms in <strong><em>titles</em></strong>/<em><strong>subjects</em></strong> for different purposes (story, feature, test), but we have no formalism for bug reports...</p>\n\n<p>We are investigating the advantages of a <strong><em>standardised title format for bugs</em></strong>.</p>\n\n<h2>Different formalisms for <em>titles</em>/*subjects* in use, practically</h2>\n\n<p>We use with quite a success these formalisms in <strong>titles</strong>/*<em>subjects</em>* .</p>\n\n<h3>Story title</h3>\n\n<p>For Scrum stories, we use the following title formalism:</p>\n\n<pre><code>As a &lt;role&gt;, I want &lt;goal/desire&gt; so that &lt;benefit&gt;\n</code></pre>\n\n<h3>Feature title</h3>\n\n<p>For FDD (Feature-Driven Development) features, we use the following title formalism:</p>\n\n<pre><code>&lt;action&gt; the &lt;result&gt; &lt;by|for|of|to&gt; a(n) &lt;object&gt;\n</code></pre>\n\n<h3>Tests formalism</h3>\n\n<p>For Acceptance Tests (behaviour), we use the following formalism:</p>\n\n<pre><code>GIVEN THAT &lt;conditions&gt;/&lt;initial state&gt;/&lt;context&gt; (no action)\nWHEN &lt;actions&gt; (performed by user)\nTHEN &lt;expected results&gt;/&lt;consequences&gt; (that the system does)\n</code></pre>\n\n<h2>Looking for a bug title formalism</h2>\n\n<h3>Title/subject formalism</h3>\n\n<p>For bug reports, we think we are going to adopt a title formalism close to:</p>\n\n<pre><code>I was &lt;context&gt;, I did &lt;action&gt;, I got &lt;actual behaviour&gt;\n</code></pre>\n\n<p><strong>I only focus here on the title, not the full description!</strong></p>\n\n<p>Advantages:</p>\n\n<ul>\n<li>homogeneity across teams (when bugs needs to be passed over)</li>\n<li>strictness for better description and understanding</li>\n<li>mapping of:\n<ul>\n<li>the bug's 'context' to the acceptance test's 'context'</li>\n<li>the bug's 'actual behaviour' to the acceptance test's 'expected results'</li>\n</ul></li>\n</ul>\n\n<p>Disadvantages:</p>\n\n<ul>\n<li>it is a change to introduce, document, promote, and followup in the project</li>\n<li>you name it</li>\n</ul>\n\n<h3>Guidelines for the title/subject</h3>\n\n<p>But this formalism is not enough for just a title, as it may need a few guidelines:</p>\n\n<ul>\n<li>should be as short as possible</li>\n<li>do not mention a technical component or feature, as the guess and confirmation is part of the investigation and not the purpose of the creation of the bug</li>\n<li>do not make any assumption or guess</li>\n<li>just basically describe as briefly as possible the context, action, and actual behaviour, because anyway it will be detailed in the full description</li>\n<li>do not not add any markup like [stuff] or (thing), because it hinders the reading</li>\n<li>do not add any team-specific keywords, as a bug is supposed to be passed from team to team</li>\n<li>do not try to solve the issue at the reporting phase, it is the task of the assignee</li>\n<li>bring the right balance/dichotomy between barely perimetered issue, and fully understood, as in one hand it is too vague, and on the other hand the resolution is almost finished</li>\n<li>stay meaningful</li>\n</ul>\n\n<h3>\u00a0Full description (not the goal of this post)</h3>\n\n<p>Of course, this is not the goal of this post, but in the full description of the bug free text), there will be:</p>\n\n<ul>\n<li>Context</li>\n<li>Steps to reproduce</li>\n<li>Actual behaviour</li>\n<li>Expected results</li>\n<li>Optionnally\n<ul>\n<li>links to docs</li>\n<li>logs</li>\n<li>diagrams</li>\n<li>screenshots</li>\n<li>...</li>\n</ul></li>\n</ul>\n\n<p>With all the fields of the bug tracker software, like affected/fix versions, severity, priority, links to other tickets, etc.</p>\n\n<p>But this is not the subject of this post...</p>\n\n<p>Let's get back to the bug <strong>titles</strong>/*<em>subjects</em>*.</p>\n\n<h2>Open questions on bug titles</h2>\n\n<ul>\n<li>Do you think it is worth to put up such a <strong>title</strong>/*<em>subject</em>* formalism in place?</li>\n<li>How do you <strong>name</strong> you bugs? (how you fully describe and manage bugs is not the goal of this discussion)</li>\n</ul>\n",
         "score": 2,
         "creationdate": "2013-08-06T09:17:42.880000",
         "viewcount": 434,
         "tags": "|process|bugs|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on standardizing bug report titles and does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it discusses processes related to bug reporting, it lacks a connection to Agile Software Development (ASD) and does not provide real-world scenarios related to TD management."
     },
     {
         "id": 9717,
@@ -547,7 +694,10 @@
         "viewcount": 322,
         "tags": "|scrum|tasks|user-stories|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "This discussion addresses the management of small refactorings and code improvements within the Scrum framework, which relates directly to technical debt (TD). It references Uncle Bob's boy scout rule, implicitly indicating a practice aimed at reducing TD. However, it lacks specific examples of existing scenarios or lived experiences, which slightly reduces its overall depth."
     },
     {
         "id": 9809,
@@ -558,7 +708,10 @@
         "viewcount": 424,
         "tags": "|communication|management|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly relate to Technical Debt (TD) within the context of Agile Software Development (ASD). While it mentions issues related to project management and workflow, it lacks specific references to TD indicators such as poor-quality code, lack of tests, or time management difficulties. The focus is on seeking advice for project management solutions rather than addressing existing scenarios of TD."
     },
     {
         "id": 9926,
@@ -569,7 +722,10 @@
         "viewcount": 188,
         "tags": "|knowledge-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on challenges related to learning a domain in legacy applications but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions issues like poor documentation and readability of code, it lacks a direct connection to TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 10078,
@@ -580,7 +736,10 @@
         "viewcount": 518,
         "tags": "|scheduling|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project scheduling practices and does not mention technical debt (TD) or any indicators of TD. It lacks a real-world scenario related to TD and does not connect to Agile Software Development (ASD) in a meaningful way."
     },
     {
         "id": 10084,
@@ -591,7 +750,10 @@
         "viewcount": 221,
         "tags": "|project-team|motivation|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on project management challenges and balancing creative control among team members without any mention of TD indicators or real-world scenarios that involve technical debt."
     },
     {
         "id": 10126,
@@ -602,7 +764,10 @@
         "viewcount": 2416,
         "tags": "|scrum|planning|user-stories|sprint|change-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "While the discussion mentions modifying a delivered user story and includes an example of refactoring, it does not provide a real-world scenario based on lived experience. The question is hypothetical and lacks explicit references to technical debt (TD) or indicators of TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 10705,
@@ -613,7 +778,10 @@
         "viewcount": 5550,
         "tags": "|scrum|agile|planning|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the pressure of completing user stories during a sprint and its impact on team productivity. However, it does not explicitly mention technical debt (TD) or any indicators of TD. The focus is more on sprint management and team dynamics rather than on technical debt within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 10788,
@@ -624,7 +792,10 @@
         "viewcount": 286,
         "tags": "|scrum|scrum-master|process-improvement|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the role of the Scrum Master in improving tools and processes but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions development process improvements, it lacks a direct connection to TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 10804,
@@ -635,7 +806,10 @@
         "viewcount": 1513,
         "tags": "|team-management|team|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on measuring team members' effectiveness and efficiency, which does not relate to Technical Debt (TD) or Agile Software Development (ASD). There are no explicit or implicit references to TD indicators, and the content does not describe an existing scenario based on lived experience in the context of software development."
     },
     {
         "id": 10927,
@@ -646,7 +820,10 @@
         "viewcount": 773,
         "tags": "|team-management|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion addresses issues related to developer performance and code quality but does not explicitly mention technical debt (TD) or provide clear indicators of TD within the context of Agile Software Development (ASD). The focus is on the inefficiencies in the development process rather than on specific TD-related challenges or scenarios."
     },
     {
         "id": 11204,
@@ -657,7 +834,10 @@
         "viewcount": 237,
         "tags": "|scrum|measurement|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on measuring the economic efficiency of a Scrum team but does not mention technical debt (TD) or any related indicators. It lacks real-world examples of TD and does not connect to the challenges of managing TD within the Agile Software Development (ASD) context."
     },
     {
         "id": 11479,
@@ -668,7 +848,10 @@
         "viewcount": 144,
         "tags": "|user-stories|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the structuring of user stories based on user types and does not mention or imply any aspects of Technical Debt (TD) or Agile Software Development (ASD). There are no indicators of TD present, and the content does not relate to the challenges or practices associated with managing TD in an Agile context."
     },
     {
         "id": 11489,
@@ -679,7 +862,10 @@
         "viewcount": 1306,
         "tags": "|agile|quality|process-controls|constraints|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the concept of Quality as a constraint in Agile processes but does not explicitly mention Technical Debt (TD) or provide indicators of TD. It lacks real-world scenarios related to TD and does not connect to Agile Software Development (ASD) in a way that highlights TD management, making it irrelevant for inclusion in the study."
     },
     {
         "id": 11639,
@@ -690,7 +876,10 @@
         "viewcount": 556,
         "tags": "|planning|estimation|methodology|deadline|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project management challenges and estimating project scope and deadlines, but it does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions issues like missed deadlines and communication problems, these do not directly relate to TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 11771,
@@ -701,7 +890,10 @@
         "viewcount": 330,
         "tags": "|agile|planning|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on planning and workflow in a continuous delivery context but does not explicitly address Technical Debt (TD) or provide indicators of TD. It lacks real-world examples of TD challenges and does not relate to Agile Software Development (ASD) in a way that highlights TD management."
     },
     {
         "id": 11902,
@@ -712,7 +904,10 @@
         "viewcount": 14349,
         "tags": "|ms-project|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "Terrible",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on calculating a running sum of subtask costs, which is a project management question unrelated to TD indicators or challenges in software development."
     },
     {
         "id": 11980,
@@ -723,7 +918,10 @@
         "viewcount": 348,
         "tags": "|planning|software-development|time-management|quality-management|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on managing tooling issues and external dependencies, which does not relate to Technical Debt (TD) in the context of Agile Software Development (ASD). While it mentions bugs and team happiness, it lacks explicit references to TD indicators or scenarios that demonstrate lived experiences of technical debt management."
     },
     {
         "id": 12091,
@@ -734,7 +932,10 @@
         "viewcount": 4301,
         "tags": "|scrum|agile|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the issue of developers working on non-planned stories during a sprint, which does not explicitly relate to Technical Debt (TD) or its indicators. While it mentions the Scrum methodology, it lacks any reference to TD or its management, and does not describe a scenario that highlights TD challenges or implications."
     },
     {
         "id": 12303,
@@ -745,7 +946,10 @@
         "viewcount": 9501,
         "tags": "|scrum|jira|scrum-of-scrums|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around ticket workflow adjustments in a Scrum project but does not address Technical Debt (TD) explicitly or implicitly. It focuses on the process of reopening closed user stories without connecting it to any indicators of TD or challenges related to code quality, testing, or documentation. Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 12504,
@@ -756,7 +960,10 @@
         "viewcount": 141,
         "tags": "|software-development|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not provide any existing scenario based on lived experience and is primarily an advice-seeking question. It lacks explicit or implicit references to technical debt indicators and does not relate to Agile Software Development (ASD) in a meaningful way."
     },
     {
         "id": 12581,
@@ -767,7 +974,10 @@
         "viewcount": 326,
         "tags": "|scrum|agile|team-capacity|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion addresses issues related to team capacity and testing within a Scrum framework but does not explicitly mention technical debt (TD) or any indicators of TD. It focuses on the challenges of managing workload and commitments in a sprint without connecting these issues to TD or Agile Software Development (ASD) practices."
     },
     {
         "id": 12758,
@@ -778,7 +988,10 @@
         "viewcount": 2161,
         "tags": "|scrum|software-development|product-owner|definition-of-done|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the integration of features and the role of the Product Owner in determining when a feature is 'done'. While it touches on issues related to software development processes, it does not explicitly or implicitly address Technical Debt (TD) or provide indicators of TD within the context of Agile Software Development (ASD). The focus is more on integration practices rather than on the implications of TD."
     },
     {
         "id": 14106,
@@ -789,7 +1002,10 @@
         "viewcount": 1027,
         "tags": "|scrum|project-team|relationships|negotiation|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "This discussion directly addresses technical debt (TD) within the context of Agile Software Development (ASD), specifically Scrum. It highlights the challenges of balancing feature delivery with the need to repay TD, providing insights from lived experiences of developers. The mention of management pressures and insufficient test coverage aligns with TD indicators, making it relevant for analysis. However, it could benefit from more specific strategies or examples, hence rated as 'Good' rather than 'Excellent'."
     },
     {
         "id": 14164,
@@ -800,7 +1016,10 @@
         "viewcount": 635,
         "tags": "|change-management|project-management-style|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) or its indicators within the context of Agile Software Development (ASD). It focuses on client communication regarding code changes without discussing the implications of technical debt or related challenges in a real-world scenario."
     },
     {
         "id": 14341,
@@ -811,7 +1030,10 @@
         "viewcount": 803,
         "tags": "|quality|team|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "While the discussion mentions concerns about code quality, it does not explicitly address technical debt (TD) or provide a clear TD indicator. The focus is on a team member's performance rather than on the implications of technical debt within an Agile Software Development (ASD) context. Additionally, it lacks a description of an existing scenario based on lived experience, as it primarily expresses concerns without detailing specific impacts or outcomes related to TD."
     },
     {
         "id": 14345,
@@ -822,7 +1044,10 @@
         "viewcount": 2448,
         "tags": "|scrum|agile|planning|technical-leader|sales|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenge of communicating the importance of addressing technical debt (TD) to non-technical stakeholders. However, it does not describe an existing scenario based on lived experience or provide specific TD indicators. The content is more about seeking advice rather than discussing real-world implications of TD within the context of Agile Software Development (ASD)."
     },
     {
         "id": 14360,
@@ -833,7 +1058,10 @@
         "viewcount": 187,
         "tags": "|scrum|agile|performance|technical-leader|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion poses a question about measuring technical debt but does not provide any existing scenario based on lived experience. It lacks specific references to indicators of technical debt and does not relate to Agile Software Development (ASD), making it irrelevant for inclusion."
     },
     {
         "id": 14629,
@@ -844,7 +1072,10 @@
         "viewcount": 778,
         "tags": "|scrum|planning|motivation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on sprint planning and team motivation but does not address Technical Debt (TD) or any indicators of TD. It lacks real-world examples related to TD and does not connect to Agile Software Development (ASD) in a meaningful way, making it irrelevant to the study."
     },
     {
         "id": 14692,
@@ -855,7 +1086,10 @@
         "viewcount": 3415,
         "tags": "|scrum|tasks|product-owner|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the management of internal team tasks and their prioritization in the Product Backlog. While it touches on process improvements, it does not explicitly or implicitly relate to Technical Debt (TD) indicators or Agile Software Development (ASD) practices. The focus is more on backlog management rather than addressing TD or its implications in the context of Agile."
     },
     {
         "id": 14722,
@@ -866,7 +1100,10 @@
         "viewcount": 2698,
         "tags": "|ms-project|cost-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion is focused on project cost management in MS Project and does not relate to Technical Debt (TD) or Agile Software Development (ASD). There are no references to TD indicators or challenges associated with software development practices."
     },
     {
         "id": 14943,
@@ -877,7 +1114,10 @@
         "viewcount": 3284,
         "tags": "|scrum|task-management|waterfall|evm|definition-of-done|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion touches on the challenges of closing tasks and the concept of 'Definition of Done' but does not explicitly mention technical debt (TD) or provide indicators of TD. It lacks a real-world scenario related to TD in the context of Agile Software Development (ASD) and focuses more on project management processes rather than technical debt management."
     },
     {
         "id": 15069,
@@ -888,7 +1128,10 @@
         "viewcount": 54360,
         "tags": "|scrum|agile|team-capacity|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on calculating sprint capacity and the allocation of time for testing and code review, but it does not explicitly or implicitly address Technical Debt (TD) or any related indicators. It lacks a real-world scenario related to TD and does not connect to Agile Software Development (ASD) in a meaningful way."
     },
     {
         "id": 15140,
@@ -899,7 +1142,10 @@
         "viewcount": 121,
         "tags": "|risk-management|metrics|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the use of a cumulative flow diagram in the testing phase of a project, but it does not mention technical debt (TD) or any indicators of TD. It lacks a connection to Agile Software Development (ASD) and does not describe an existing scenario related to TD, making it irrelevant for inclusion in the study."
     },
     {
         "id": 15261,
@@ -910,7 +1156,10 @@
         "viewcount": 1180,
         "tags": "|agile|user-stories|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion touches on stakeholder requirements in an Agile context but does not explicitly relate to Technical Debt (TD) or provide a clear TD indicator. While it mentions 'debt tasks' and 'code needs to be refactored,' these references are not sufficiently developed or connected to a real-world scenario involving TD management in Agile Software Development (ASD). The focus is more on stakeholder engagement rather than on addressing TD issues."
     },
     {
         "id": 15431,
@@ -921,7 +1170,10 @@
         "viewcount": 966,
         "tags": "|scrum|agile|sprint|story-points|",
         "answercount": 6,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the concept of committing to zero story points while focusing on technical debt, which is a relevant topic in Agile Software Development (ASD). It describes a real-world scenario involving Scrum teams and the challenges of managing technical debt during a transition period. However, while it mentions technical debt, it could provide more explicit indicators or examples of how this impacts the team's workflow."
     },
     {
         "id": 15796,
@@ -932,7 +1184,10 @@
         "viewcount": 465,
         "tags": "|scrum|agile|sprint|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the possibility of varying sprint cycles in a project and does not mention technical debt (TD) or any related indicators. It lacks real-world examples of TD and does not connect to Agile Software Development (ASD) in a way that addresses TD management."
     },
     {
         "id": 15933,
@@ -943,7 +1198,10 @@
         "viewcount": 1112,
         "tags": "|scrum|development-process|process-improvement|impediment|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on tracking impediments and managing support tasks within a Scrum framework but does not explicitly mention technical debt (TD) or any indicators of TD. While it discusses challenges related to capacity and velocity, it lacks a clear connection to TD in the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 16020,
@@ -954,7 +1212,10 @@
         "viewcount": 1092,
         "tags": "|scrum|sprint|extreme-programming|",
         "answercount": 3,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion explicitly addresses technical debt (TD) within the context of Agile Software Development (ASD) by discussing the concept of a hardening sprint as a means to manage and repay TD. It provides a real-world scenario based on lived experience, highlighting the challenges and benefits of implementing such an approach. The mention of integration testing, quality reviews, and the impact of TD on project costs further solidifies its relevance and actionable insights for managing TD in Agile environments."
     },
     {
         "id": 16299,
@@ -965,7 +1226,10 @@
         "viewcount": 255,
         "tags": "|team-management|planning|software-development|resource-planning|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly mentions technical debt in the context of a new team and product development, which aligns with the inclusion criteria. It describes a real-world scenario based on lived experience and highlights challenges related to managing technical debt. However, it lacks depth in defining specific TD indicators and does not provide detailed strategies for addressing these issues within an Agile Software Development (ASD) framework."
     },
     {
         "id": 16361,
@@ -976,7 +1240,10 @@
         "viewcount": 12745,
         "tags": "|scrum|process|time-management|roles|testing|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the roles of developers during the QA phase of a Sprint in the Scrum framework. While it touches on aspects of the Scrum process, it does not address Technical Debt (TD) explicitly or implicitly, nor does it provide any indicators of TD. The content is more about team dynamics and responsibilities rather than any real-world scenario related to TD in Agile Software Development."
     },
     {
         "id": 16578,
@@ -987,7 +1254,10 @@
         "viewcount": 4063,
         "tags": "|scrum|agile|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on planning for Sprint 0 in an Agile project and does not mention Technical Debt (TD) or any related indicators. It lacks real-world scenarios or lived experiences related to TD, making it irrelevant to the study's focus on TD in Agile Software Development."
     },
     {
         "id": 16818,
@@ -998,18 +1268,24 @@
         "viewcount": 697,
         "tags": "|kanban|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project management challenges related to scheduling and resource allocation within a team that handles both development and support tasks. While it mentions the use of Kanban and discusses team dynamics, it does not explicitly address Technical Debt (TD) or provide indicators of TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 17051,
         "title": "How to make Release Planning more accurate?",
-        "body": "<p>I had an interview with one company. They use Scrum, but don�t like rough estimates during Release Planning. So, they asked me, how to make Release Planning more accurate (they don�t want more than 30 percent of deviations from the plan).</p>\n\n<p>I suggested they do following:</p>\n\n<ol>\n<li><p>Gather requirements.</p></li>\n<li><p>Filter requirements and create scope.</p></li>\n<li><p>Decompose scope to \"nouns\" (deliverable items). <em>- i.e. WBS structure</em></p></li>\n<li><p>Decompose \"nouns\" to \"verbs\" (work needs to be done to implement \"nouns\").</p></li>\n<li><p>Estimate \"verbs\" considering risks.</p></li>\n<li><p>Find \"verbs\" dependencies and put them in a timeline. <em>- i.e. GANT diagram</em> </p></li>\n<li><p>Calculate release date.</p></li>\n</ol>\n\n<p>As you can see, it is more complicated than initial story mapping, and looks more like �heavy waterfall� style, than �agile� style. As I understand Agile philosophy, accuracy of estimation of final release date is not high priority, because \"responding to change over following a plan\".</p>\n\n<p>Going back to the planning list: in Scrum we implicitly did 1-3 steps during initial Release Planning and steps 4-6 during each Sprint Planning. I suggested to do all these steps during Release Planning explicitly.</p>\n\n<p>Despite the fact that this was the first (and only) way I figured to improve the accuracy of a release plan, I don�t really like it because (in my opinion) this kind of planning does not conform to the ideology of Agile.</p>\n\n<p>I understand, that accurate estimates demand more effort and don�t believe in �miracle� high quality estimation without effort. But maybe you can suggest to me other ways (or some tips) on <strong>how to make Release Planning more accurate</strong> without having complicated heavy waterfall-style planning?</p>\n",
+        "body": "<p>I had an interview with one company. They use Scrum, but don\u2019t like rough estimates during Release Planning. So, they asked me, how to make Release Planning more accurate (they don\u2019t want more than 30 percent of deviations from the plan).</p>\n\n<p>I suggested they do following:</p>\n\n<ol>\n<li><p>Gather requirements.</p></li>\n<li><p>Filter requirements and create scope.</p></li>\n<li><p>Decompose scope to \"nouns\" (deliverable items). <em>- i.e. WBS structure</em></p></li>\n<li><p>Decompose \"nouns\" to \"verbs\" (work needs to be done to implement \"nouns\").</p></li>\n<li><p>Estimate \"verbs\" considering risks.</p></li>\n<li><p>Find \"verbs\" dependencies and put them in a timeline. <em>- i.e. GANT diagram</em> </p></li>\n<li><p>Calculate release date.</p></li>\n</ol>\n\n<p>As you can see, it is more complicated than initial story mapping, and looks more like \u201cheavy waterfall\u201d style, than \u201cagile\u201d style. As I understand Agile philosophy, accuracy of estimation of final release date is not high priority, because \"responding to change over following a plan\".</p>\n\n<p>Going back to the planning list: in Scrum we implicitly did 1-3 steps during initial Release Planning and steps 4-6 during each Sprint Planning. I suggested to do all these steps during Release Planning explicitly.</p>\n\n<p>Despite the fact that this was the first (and only) way I figured to improve the accuracy of a release plan, I don\u2019t really like it because (in my opinion) this kind of planning does not conform to the ideology of Agile.</p>\n\n<p>I understand, that accurate estimates demand more effort and don\u2019t believe in \u201cmiracle\u201d high quality estimation without effort. But maybe you can suggest to me other ways (or some tips) on <strong>how to make Release Planning more accurate</strong> without having complicated heavy waterfall-style planning?</p>\n",
         "score": 8,
         "creationdate": "2015-12-27T20:22:13.877000",
         "viewcount": 1365,
         "tags": "|scrum|agile|planning|estimation|release-planning|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on improving release planning accuracy within a Scrum context but does not address Technical Debt (TD) or any indicators of TD. It primarily discusses planning methodologies and estimation techniques without linking to the challenges or consequences of technical debt in Agile Software Development."
     },
     {
         "id": 17143,
@@ -1020,7 +1296,10 @@
         "viewcount": 7391,
         "tags": "|scrum|agile|user-stories|tasks|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on how to split a User Story into multiple parts for Agile development but does not address Technical Debt (TD) explicitly or implicitly. There are no indicators of TD present, such as poor-quality code or time management difficulties, and the context is primarily about user story management rather than technical debt in Agile Software Development (ASD)."
     },
     {
         "id": 17145,
@@ -1031,7 +1310,10 @@
         "viewcount": 2548,
         "tags": "|agile|user-stories|tasks|tracking|bugs|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on managing small tasks in Agile without any explicit or implicit references to Technical Debt (TD). It does not describe an existing scenario related to TD, nor does it provide indicators of TD within the context of Agile Software Development (ASD). The content is more about task management rather than addressing issues related to technical debt."
     },
     {
         "id": 17207,
@@ -1042,7 +1324,10 @@
         "viewcount": 1391,
         "tags": "|scrum|agile|burn-charts|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or provide any indicators of TD. It focuses on the usefulness of optimistic and pessimistic burndown lines in Agile charts, which does not connect to the lived experiences or challenges associated with TD in Agile Software Development."
     },
     {
         "id": 17313,
@@ -1053,7 +1338,10 @@
         "viewcount": 285,
         "tags": "|team-management|estimation|schedule|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on team planning and commitment issues but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions the challenges of over-committing and managing capacity, these issues do not directly relate to TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 17319,
@@ -1064,7 +1352,10 @@
         "viewcount": 1177,
         "tags": "|scrum|product-owner|retrospective|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the role of the Product Owner in retrospectives and does not address Technical Debt (TD) or any related indicators. While it mentions technical topics, it does not provide a scenario that explicitly or implicitly relates to TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 17350,
@@ -1075,7 +1366,10 @@
         "viewcount": 104,
         "tags": "|agile|software-development|documentation|waterfall|specification|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on the challenges of creating planning documents and reverse-engineering work, but lacks any mention of TD indicators or real-world scenarios that connect to TD within an ASD context."
     },
     {
         "id": 17395,
@@ -1086,7 +1380,10 @@
         "viewcount": 1728,
         "tags": "|scrum|agile|sprint|story-points|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the estimation of stories and bugs in a Scrum context but does not explicitly address technical debt (TD) or its indicators. While it touches on issues related to sprint planning and velocity, it lacks a clear connection to TD management or challenges that would indicate the presence of technical debt."
     },
     {
         "id": 17425,
@@ -1097,7 +1394,10 @@
         "viewcount": 378,
         "tags": "|scrum|agile|tasks|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the management of minor tasks that arise during a sprint, including refactoring, which is a clear indicator of technical debt (TD). It is situated within the context of Scrum, an Agile methodology, and discusses practical approaches to handling these tasks. However, it could benefit from more explicit connections to the implications of TD on the overall development process."
     },
     {
         "id": 17514,
@@ -1108,7 +1408,10 @@
         "viewcount": 9211,
         "tags": "|scrum|evaluation|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on evaluating developer performance and the introduction of a measurement system within a Scrum context. However, it does not explicitly or implicitly address Technical Debt (TD) or any related indicators. The content is more about performance metrics rather than challenges or scenarios related to TD in Agile Software Development (ASD)."
     },
     {
         "id": 17567,
@@ -1119,7 +1422,10 @@
         "viewcount": 1831,
         "tags": "|requirements|documentation|scope|contracts|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project management and scope definition issues rather than technical debt (TD) in Agile Software Development (ASD). It does not mention any indicators of TD or relate to the challenges of managing TD within an Agile context, making it irrelevant for inclusion in the study."
     },
     {
         "id": 17701,
@@ -1130,7 +1436,10 @@
         "viewcount": 5585,
         "tags": "|scrum|estimation|story-points|velocity|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the concept of velocity in Scrum and how it relates to team performance over time. However, it does not mention technical debt (TD) or any indicators of TD, nor does it relate to Agile Software Development (ASD) in a way that highlights TD management. The content is more about understanding velocity rather than addressing any technical debt issues."
     },
     {
         "id": 17721,
@@ -1141,18 +1450,24 @@
         "viewcount": 8252,
         "tags": "|scheduling|resource-planning|",
         "answercount": 14,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on project scheduling and the impact of padding schedules on project delivery, without any mention of TD indicators or real-world scenarios involving technical debt."
     },
     {
         "id": 17923,
         "title": "Any ideas for mixing a kanban with taskboards",
-        "body": "<p>I am the PM of a small team of 6 programmers, recently we are trying to go more agile by including in our workflow some principles or techniques of XP, scrum, scrumban and lean. </p>\n\n<p>A very important tool is our kanban, currently we are using github+zenhub for that. Zenhub provides a simple and customizable kanban(similar to trello) fully integrated into github issues. </p>\n\n<p>Our current setup looks like this.\n<a href=\"https://i.stack.imgur.com/cMVsR.png\" rel=\"noreferrer\"><img src=\"https://i.stack.imgur.com/cMVsR.png\" alt=\"enter image description here\"></a></p>\n\n<p>It is some kind of combination of Taskboard Kanban and User story Kanban. But still where the 2,3 column are managed by the PO and PM while the last 3 columns are managed by the team. </p>\n\n<p>The problem is that we have this mixtures of user stories and tasks, and I wonder what�s the typical approach to organize them. Some tasks are part of user stories, while others (non-functional features, chores and refactors) are not. Should they be part of the backlog? How would you improve this kanban?</p>\n",
+        "body": "<p>I am the PM of a small team of 6 programmers, recently we are trying to go more agile by including in our workflow some principles or techniques of XP, scrum, scrumban and lean. </p>\n\n<p>A very important tool is our kanban, currently we are using github+zenhub for that. Zenhub provides a simple and customizable kanban(similar to trello) fully integrated into github issues. </p>\n\n<p>Our current setup looks like this.\n<a href=\"https://i.stack.imgur.com/cMVsR.png\" rel=\"noreferrer\"><img src=\"https://i.stack.imgur.com/cMVsR.png\" alt=\"enter image description here\"></a></p>\n\n<p>It is some kind of combination of Taskboard Kanban and User story Kanban. But still where the 2,3 column are managed by the PO and PM while the last 3 columns are managed by the team. </p>\n\n<p>The problem is that we have this mixtures of user stories and tasks, and I wonder what\u2019s the typical approach to organize them. Some tasks are part of user stories, while others (non-functional features, chores and refactors) are not. Should they be part of the backlog? How would you improve this kanban?</p>\n",
         "score": 4,
         "creationdate": "2016-04-04T11:42:36.247000",
         "viewcount": 487,
         "tags": "|scrum|kanban|tasks|small-projects|lean|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the organization of a Kanban board and the integration of various Agile methodologies. While it mentions principles of Agile, it does not explicitly address Technical Debt (TD) or provide indicators of TD. The content is more about workflow management rather than discussing real-world scenarios related to TD in Agile Software Development."
     },
     {
         "id": 17978,
@@ -1163,7 +1478,10 @@
         "viewcount": 181,
         "tags": "|planning|methodology|risk|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly relate to Technical Debt (TD) or Agile Software Development (ASD). While it describes challenges faced during a project, it focuses on decision-making and design issues rather than on indicators of TD such as poor-quality code, lack of tests, or time management difficulties. There are no clear references to TD or its management within an Agile context."
     },
     {
         "id": 18092,
@@ -1174,7 +1492,10 @@
         "viewcount": 3191,
         "tags": "|agile|user-stories|resources|sprint-backlog|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or its indicators. It focuses on managing team productivity and scheduling within sprints without any mention of TD or its implications in Agile Software Development (ASD). There are no real-world examples of TD or challenges that could lead to TD in the context provided."
     },
     {
         "id": 18138,
@@ -1185,7 +1506,10 @@
         "viewcount": 1054,
         "tags": "|project-management-style|skills|training|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the allocation of time for skills improvement among junior developers and does not mention technical debt (TD) or any related indicators. It lacks a connection to Agile Software Development (ASD) and does not describe an existing scenario related to TD, making it irrelevant to the study."
     },
     {
         "id": 18254,
@@ -1196,7 +1520,10 @@
         "viewcount": 426,
         "tags": "|scrum|project-team|sales|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly mentions technical debt (TD) as a consequence of aggressive deadlines set by management, which is a clear indicator of TD. It describes a real-world scenario where the author is facing challenges related to project management and team workload within an Agile context. However, while it addresses TD, the discussion could benefit from more depth regarding the specific impacts of TD on the development process."
     },
     {
         "id": 18298,
@@ -1207,7 +1534,10 @@
         "viewcount": 4396,
         "tags": "|scrum|process|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the imbalance of work between backend and frontend development without addressing technical debt (TD) or its indicators. It does not provide a real-world scenario related to TD, nor does it connect to Agile Software Development (ASD) practices in a meaningful way."
     },
     {
         "id": 18545,
@@ -1218,7 +1548,10 @@
         "viewcount": 274,
         "tags": "|software-development|education|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on encouraging self-learning of Git and does not relate to Technical Debt (TD) or Agile Software Development (ASD). It lacks any mention of TD indicators or real-world scenarios that connect to the challenges of managing technical debt within an Agile context."
     },
     {
         "id": 18617,
@@ -1229,7 +1562,10 @@
         "viewcount": 880,
         "tags": "|scrum|agile|roles|testing|scaled|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the responsibility for writing automated system tests in a scaled Scrum environment. While it touches on aspects of quality assurance and testing, it does not explicitly or implicitly address Technical Debt (TD) or its indicators. The content lacks a connection to TD management within the Agile Software Development (ASD) context, making it irrelevant for inclusion."
     },
     {
         "id": 18637,
@@ -1240,7 +1576,10 @@
         "viewcount": 200,
         "tags": "|jira|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly relate to Technical Debt (TD) or its indicators. It focuses on the challenges of managing a ticketing system and the overwhelming nature of unresolved issues, but it lacks a connection to TD within the context of Agile Software Development (ASD). There are no references to code quality, testing, or other TD indicators."
     },
     {
         "id": 18708,
@@ -1251,7 +1590,10 @@
         "viewcount": 620,
         "tags": "|scrum|team-management|sprint|project-management-style|team-capacity|",
         "answercount": 5,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on calculating team capacity for sprints, which does not relate to Technical Debt (TD) or its indicators. There are no explicit or implicit references to TD, and the content does not address any existing scenarios involving TD within the context of Agile Software Development (ASD)."
     },
     {
         "id": 18724,
@@ -1262,7 +1604,10 @@
         "viewcount": 580,
         "tags": "|ms-project|gantt|timeline|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "Terrible",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on creating a custom timeline for corporate periods, which is unrelated to any indicators of TD or challenges in software development."
     },
     {
         "id": 19829,
@@ -1273,7 +1618,10 @@
         "viewcount": 168,
         "tags": "|ms-project|cost-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion is focused on adding columns in MS Project Pro to display time-phased costs, which is unrelated to Technical Debt (TD) or Agile Software Development (ASD). There are no references to TD indicators or scenarios that involve software development challenges, making it irrelevant to the study."
     },
     {
         "id": 19837,
@@ -1284,7 +1632,10 @@
         "viewcount": 461,
         "tags": "|scrum|planning|scheduling|prioritization|technical-debt|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion explicitly addresses the challenge of balancing technical debt (TD) management with feature delivery within an Agile context. It describes a real-world scenario involving a Scrum team facing deadlines while recognizing the importance of addressing TD. The mention of inherited technical debt and the team's desire to integrate engineering chores while maintaining focus on features clearly defines TD indicators and aligns with Agile Software Development practices."
     },
     {
         "id": 20042,
@@ -1295,7 +1646,10 @@
         "viewcount": 163,
         "tags": "|planning|initiation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on introducing IT projects in a non-IT organization and does not mention any indicators of TD or provide a scenario that connects to the challenges of managing technical debt within an Agile context."
     },
     {
         "id": 20142,
@@ -1306,7 +1660,10 @@
         "viewcount": 303,
         "tags": "|team-management|project-team|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the issue of an ineffective programmer whose code quality is poor, which is a clear indicator of technical debt (TD). The mention of 'cleaning up' code and the potential increase in maintenance costs aligns with TD concerns. However, while it relates to TD, the focus is more on personnel management rather than direct Agile Software Development (ASD) practices, which slightly reduces its relevance."
     },
     {
         "id": 20198,
@@ -1317,7 +1674,10 @@
         "viewcount": 195,
         "tags": "|scrum|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around managing sprint tasks and team dynamics but does not explicitly or implicitly address Technical Debt (TD) or its indicators. It focuses on the challenges of task allocation and scope changes without connecting to TD within the context of Agile Software Development (ASD)."
     },
     {
         "id": 20212,
@@ -1328,7 +1688,10 @@
         "viewcount": 120,
         "tags": "|software-development|clients|small-projects|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) or any related indicators. It focuses on project planning and client communication without any mention of code quality issues, testing, or Agile Software Development (ASD) practices. Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 20239,
@@ -1339,7 +1702,10 @@
         "viewcount": 2301,
         "tags": "|agile|story-points|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of story decomposition and estimation within Agile practices but does not explicitly mention technical debt (TD) or any indicators of TD. It lacks real-world examples of how these issues lead to TD, making it irrelevant to the study's focus on TD in Agile Software Development."
     },
     {
         "id": 20358,
@@ -1350,7 +1716,10 @@
         "viewcount": 1494,
         "tags": "|jira|tasks|task-management|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly mentions 'Technical Debt Removal' as a category of tasks, which directly relates to technical debt (TD). It describes a real-world scenario involving project management and the desire to track TD tasks separately. However, while it addresses TD, the focus is more on the organizational aspect rather than the implications or indicators of TD itself, which slightly reduces its overall relevance."
     },
     {
         "id": 20397,
@@ -1361,7 +1730,10 @@
         "viewcount": 324,
         "tags": "|agile|communication|pmp|ms-project-2010|pmi-framework|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "Terrible",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on understanding differences in project management between application development and other types of projects, without any mention of TD indicators or real-world scenarios related to software development challenges."
     },
     {
         "id": 20578,
@@ -1372,7 +1744,10 @@
         "viewcount": 121,
         "tags": "|software-development|requirements|product-management|development-process|technical-debt|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly address Technical Debt (TD) or provide clear indicators of TD within the context of Agile Software Development (ASD). It focuses on the cost/benefit analysis of continuing with old code versus starting anew, which, while related to software development, does not meet the inclusion criteria for TD discussions."
     },
     {
         "id": 20717,
@@ -1383,7 +1758,10 @@
         "viewcount": 318,
         "tags": "|software-development|software|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) or its indicators within the context of Agile Software Development (ASD). While it touches on project management challenges and stakeholder expectations, it lacks a clear connection to TD and does not describe a real-world scenario related to TD management."
     },
     {
         "id": 20796,
@@ -1394,7 +1772,10 @@
         "viewcount": 8013,
         "tags": "|scrum|meetings|daily-scrum|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the scheduling of daily stand-ups in Scrum but does not address technical debt (TD) or any related indicators. It focuses on meeting management rather than any issues that could lead to or indicate TD, thus failing to meet the inclusion criteria."
     },
     {
         "id": 21058,
@@ -1405,7 +1786,10 @@
         "viewcount": 5685,
         "tags": "|scrum|agile|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly. It focuses on team dynamics and task allocation within a Scrum framework without mentioning any indicators of TD or challenges related to code quality, testing, or documentation."
     },
     {
         "id": 21202,
@@ -1416,18 +1800,24 @@
         "viewcount": 1929,
         "tags": "|scrum|agile|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion highlights issues related to environment instability that impede the development teams' ability to deliver successful sprints, which can be seen as an indicator of technical debt (TD). It describes a real-world scenario based on lived experience within an Agile Software Development (ASD) context, specifically Scrum. However, while it addresses the impact of these issues on sprint delivery, it could provide more explicit connections to TD indicators and management strategies."
     },
     {
         "id": 21223,
         "title": "Does it make sense to require developers to write a \"business value add\" section in each issue?",
-        "body": "<h1>Background</h1>\n\n<p>In our company we demand that engineers write a brief one liner section in each ticket they work on (from jira/github/gitlab etc) that explains the \"business requirement\".. the logic of that is explained here (text copied from our \"issue protocol\" document verbatim):</p>\n\n<blockquote>\n  <h1>Business Value add</h1>\n  \n  <p>The software projects we work on must always\n  ultimately serve a business need. Simply put b/c at the end of the\n  day, someone should be paying for the development of these tasks.\n  Therefore, it's very important to express the value add of the task in\n  a language that non-technical person can understand and appreciate.</p>\n  \n  <p>Think about it in the following scenario: we bill the client per issue\n  (ie in the monthly invoice we add the issue number and description in\n  a spreadsheet). For the client to know where their money is going,\n  they should be able to read the issue business requirement and\n  immediately understand it. This isn't the job of the PM on the\n  project, this is the job of the engineer working on the issue as\n  they're the one most familiar with it. If you need help expressing the\n  business value of the technical work you're doing, contact your PM and\n  they can give you a hand.</p>\n  \n  <h2>Business Value add instructions</h2>\n  \n  <h3>Must be a one liner</h3>\n  \n  <p>don�t write a\n  whole detailed description of the requirement and the reason behind it\n  and the background etc. Simply state the business value of what the\n  task is about. </p>\n  \n  <h3>Must be a parent task</h3>\n  \n  <p>No need to write business requirements for\n  subtasks. The business requirement for the subtasks can be inferred\n  from the parent task</p>\n  \n  <h3>Must explain the business value add, not just describe a problem</h3>\n  \n  <p>People don�t pay engineers to report a problem. They pay them to fix\n  it. That�s why the business value add section should simply state the\n  value added by doing it.</p>\n  \n  <p><em>Bad example</em> Users won't be able to successfully checkout using valid\n  credit cards.</p>\n  \n  <p><em>Good Example</em>  Fix bug preventing using from successfully checking out\n  by using valid credit cards</p>\n  \n  <h3>Must use the imperative mood</h3>\n  \n  <p>This is best explained <a href=\"https://chris.beams.io/posts/git-commit/#imperative\" rel=\"noreferrer\">here</a>. Similar to\n  the git commit messages, business value should be written in\n  imperative mood, which is �spoken or written as if giving a command or\n  instruction�. A few examples: Clean your room Close the door Take out\n  the trash Please see above link for more thorough explanation</p>\n</blockquote>\n\n<p>I have used this policy with several teams/startups with mixed results. But I was going over the book <a href=\"http://rads.stackoverflow.com/amzn/click/0735679665\" rel=\"noreferrer\">Software Requirements</a> and it showed this image:</p>\n\n<p><a href=\"https://chris.beams.io/posts/git-commit/#imperative\" rel=\"noreferrer\"><img src=\"https://i.stack.imgur.com/F1lNS.jpg\" alt=\"enter image description here\"></a></p>\n\n<p>and it shows \"business requirements\" as high level business objectives that belong in the vision and scope document, rather than \"functional requirements specification\" doc. </p>\n\n<h1>Question</h1>\n\n<p>Does it make sense to ask engineers to put a Business Value Add section in <em>each</em> issue they work on? Let's assume that engineers aren't trained for that kind of documentation (from my own experience, it's a hit or miss chance that engineers will be able to properly write a business requirement section, most of the time they do it just as getting through the motions and they don't really do a good job) then the next question is: does it make sense for <em>anyone</em> to write a business requirement section for <em>each</em> issue.. be it a BA or a PM etc?</p>\n\n<h2>Update</h2>\n\n<p>I just wanted to clarify something. Basically I guess my question makes more sense if given the context that the engineers doing the work are <em>not</em> from the same organization that's paying for the work. Classic example: entrepreneur outsources software work to a software shop, and pays them. The question I get all the time from such entrepreneurs is: where is all my money going? By requiring that the outsourcing company fill in the business value add section (and this is why it doesn't have to be an engineer doing it.. it could be the PM/BA from the outsourcing company), then the client gets a lot more visibility on where they're money is going, and I think that's fair (it better be, the client can simply make that a requirement when signing the contract).</p>\n",
+        "body": "<h1>Background</h1>\n\n<p>In our company we demand that engineers write a brief one liner section in each ticket they work on (from jira/github/gitlab etc) that explains the \"business requirement\".. the logic of that is explained here (text copied from our \"issue protocol\" document verbatim):</p>\n\n<blockquote>\n  <h1>Business Value add</h1>\n  \n  <p>The software projects we work on must always\n  ultimately serve a business need. Simply put b/c at the end of the\n  day, someone should be paying for the development of these tasks.\n  Therefore, it's very important to express the value add of the task in\n  a language that non-technical person can understand and appreciate.</p>\n  \n  <p>Think about it in the following scenario: we bill the client per issue\n  (ie in the monthly invoice we add the issue number and description in\n  a spreadsheet). For the client to know where their money is going,\n  they should be able to read the issue business requirement and\n  immediately understand it. This isn't the job of the PM on the\n  project, this is the job of the engineer working on the issue as\n  they're the one most familiar with it. If you need help expressing the\n  business value of the technical work you're doing, contact your PM and\n  they can give you a hand.</p>\n  \n  <h2>Business Value add instructions</h2>\n  \n  <h3>Must be a one liner</h3>\n  \n  <p>don\u2019t write a\n  whole detailed description of the requirement and the reason behind it\n  and the background etc. Simply state the business value of what the\n  task is about. </p>\n  \n  <h3>Must be a parent task</h3>\n  \n  <p>No need to write business requirements for\n  subtasks. The business requirement for the subtasks can be inferred\n  from the parent task</p>\n  \n  <h3>Must explain the business value add, not just describe a problem</h3>\n  \n  <p>People don\u2019t pay engineers to report a problem. They pay them to fix\n  it. That\u2019s why the business value add section should simply state the\n  value added by doing it.</p>\n  \n  <p><em>Bad example</em> Users won't be able to successfully checkout using valid\n  credit cards.</p>\n  \n  <p><em>Good Example</em>  Fix bug preventing using from successfully checking out\n  by using valid credit cards</p>\n  \n  <h3>Must use the imperative mood</h3>\n  \n  <p>This is best explained <a href=\"https://chris.beams.io/posts/git-commit/#imperative\" rel=\"noreferrer\">here</a>. Similar to\n  the git commit messages, business value should be written in\n  imperative mood, which is \u201cspoken or written as if giving a command or\n  instruction\u201d. A few examples: Clean your room Close the door Take out\n  the trash Please see above link for more thorough explanation</p>\n</blockquote>\n\n<p>I have used this policy with several teams/startups with mixed results. But I was going over the book <a href=\"http://rads.stackoverflow.com/amzn/click/0735679665\" rel=\"noreferrer\">Software Requirements</a> and it showed this image:</p>\n\n<p><a href=\"https://chris.beams.io/posts/git-commit/#imperative\" rel=\"noreferrer\"><img src=\"https://i.stack.imgur.com/F1lNS.jpg\" alt=\"enter image description here\"></a></p>\n\n<p>and it shows \"business requirements\" as high level business objectives that belong in the vision and scope document, rather than \"functional requirements specification\" doc. </p>\n\n<h1>Question</h1>\n\n<p>Does it make sense to ask engineers to put a Business Value Add section in <em>each</em> issue they work on? Let's assume that engineers aren't trained for that kind of documentation (from my own experience, it's a hit or miss chance that engineers will be able to properly write a business requirement section, most of the time they do it just as getting through the motions and they don't really do a good job) then the next question is: does it make sense for <em>anyone</em> to write a business requirement section for <em>each</em> issue.. be it a BA or a PM etc?</p>\n\n<h2>Update</h2>\n\n<p>I just wanted to clarify something. Basically I guess my question makes more sense if given the context that the engineers doing the work are <em>not</em> from the same organization that's paying for the work. Classic example: entrepreneur outsources software work to a software shop, and pays them. The question I get all the time from such entrepreneurs is: where is all my money going? By requiring that the outsourcing company fill in the business value add section (and this is why it doesn't have to be an engineer doing it.. it could be the PM/BA from the outsourcing company), then the client gets a lot more visibility on where they're money is going, and I think that's fair (it better be, the client can simply make that a requirement when signing the contract).</p>\n",
         "score": 6,
         "creationdate": "2017-03-09T04:20:23.717000",
         "viewcount": 291,
         "tags": "|methodology|documentation|business-analyst|business-process-mapping|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the requirement for engineers to document business value in issue tracking systems, which does not relate to Technical Debt (TD) or Agile Software Development (ASD). While it discusses documentation practices, it lacks any explicit or implicit references to TD indicators or challenges within the context of ASD."
     },
     {
         "id": 21388,
@@ -1438,7 +1828,10 @@
         "viewcount": 1299,
         "tags": "|scrum|agile|software-development|kanban|development-process|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on managing cycle times within a team and does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions the Scrum Master role and the use of Kanban, there is no connection to TD or Agile Software Development (ASD) challenges related to code quality, testing, or other TD indicators."
     },
     {
         "id": 21399,
@@ -1449,7 +1842,10 @@
         "viewcount": 1180,
         "tags": "|agile|team|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the integration of high-performing individuals ('rockstars') into Agile teams and does not address Technical Debt (TD) or any related indicators. While it touches on team dynamics and Agile practices, it lacks any explicit or implicit references to TD, making it irrelevant to the study's focus."
     },
     {
         "id": 21409,
@@ -1460,7 +1856,10 @@
         "viewcount": 2479,
         "tags": "|scrum|user-stories|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the use of user stories versus tasks in Agile development but does not explicitly address technical debt (TD) or provide indicators of TD. While it mentions refactoring, it does not describe a real-world scenario or lived experience related to TD, nor does it connect to Agile Software Development (ASD) practices in a meaningful way."
     },
     {
         "id": 21467,
@@ -1471,7 +1870,10 @@
         "viewcount": 956,
         "tags": "|scrum|agile|scrum-master|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the roles and responsibilities of the Product Owner and Scrum Master within a Scrum framework, but it does not address Technical Debt (TD) or any indicators of TD. There are no references to code quality, testing, or other TD-related challenges, making it irrelevant to the study on Technical Debt in Agile Software Development."
     },
     {
         "id": 21575,
@@ -1482,7 +1884,10 @@
         "viewcount": 1148,
         "tags": "|scrum|agile|planning|meetings|sprint-backlog|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the structure and productivity of Sprint Planning Meetings but does not address Technical Debt (TD) explicitly or implicitly. While it raises issues related to planning and execution in Agile Software Development (ASD), it lacks any mention of TD indicators or scenarios that would connect it to technical debt management."
     },
     {
         "id": 21586,
@@ -1493,7 +1898,10 @@
         "viewcount": 863,
         "tags": "|scrum|agile|pm-software|pivotal-tracker|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion explicitly addresses technical debt (TD) within the context of Agile Software Development (ASD) by discussing the implications of estimating chores related to TD. It provides a real-world scenario from a web automobile company, highlighting various TD indicators such as legacy code, the need for technology upgrades, and the impact of business pressures on technical decisions. The discussion also explores the team's perspective on how these chores should be valued in terms of velocity, making it highly relevant for understanding TD management in Agile contexts."
     },
     {
         "id": 21588,
@@ -1504,7 +1912,10 @@
         "viewcount": 116,
         "tags": "|scrum|agile|pm-software|pivotal-tracker|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly addresses technical debt (TD) within the context of Scrum and Agile Software Development (ASD). It presents a real-world scenario regarding the management of TD by proposing different strategies for addressing it in sprints. The mention of dedicating a percentage of sprints to clear TD and the pros and cons of each approach indicates a clear understanding of TD indicators. However, it could benefit from more depth in exploring the implications of these strategies."
     },
     {
         "id": 21666,
@@ -1515,7 +1926,10 @@
         "viewcount": 494,
         "tags": "|scrum|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion explicitly addresses issues related to technical debt (TD) within the context of Agile Software Development (ASD). It describes a real-world scenario where the transition to Scrum has led to a decline in code quality, developer morale, and ownership of the code base, all of which are indicators of TD. The author reflects on lived experiences and seeks solutions to improve the situation, making it highly relevant for the study of TD in Agile contexts."
     },
     {
         "id": 21696,
@@ -1526,7 +1940,10 @@
         "viewcount": 499,
         "tags": "|scrum|testing|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around ensuring code quality and testing practices but does not explicitly address technical debt (TD) or provide indicators of TD. It lacks a real-world scenario based on lived experience and does not connect to Agile Software Development (ASD) in a meaningful way, focusing instead on hypothetical solutions to a problem."
     },
     {
         "id": 21741,
@@ -1537,7 +1954,10 @@
         "viewcount": 116,
         "tags": "|deadline|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) within the context of Agile Software Development (ASD). While it mentions quick fixes and client satisfaction, it lacks clear indicators of TD and does not describe a scenario that relates to the management of TD in an Agile environment. The focus is more on the author's experience with deployment and client feedback rather than on TD-related issues."
     },
     {
         "id": 21749,
@@ -1548,7 +1968,10 @@
         "viewcount": 168,
         "tags": "|scrum|agile|estimation|bugs|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the impact of unestimated defect tasks on team velocity within a Scrum context, which relates to technical debt (TD) as it highlights issues with defect management and quality assurance. It reflects on real-world experiences and raises questions about visibility and management of defects, aligning with TD indicators. However, it could benefit from more explicit connections to TD management practices."
     },
     {
         "id": 21912,
@@ -1559,7 +1982,10 @@
         "viewcount": 433,
         "tags": "|retrospective|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion raises questions about handling small and random problems during sprints but does not explicitly mention technical debt (TD) or provide clear indicators of TD. It focuses more on retrospective actions and decision-making without connecting to lived experiences of TD in the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 22052,
@@ -1570,7 +1996,10 @@
         "viewcount": 1127,
         "tags": "|scrum|agile|tfs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly. It focuses on challenges related to Scrum implementation and project management in TFS, without mentioning any indicators of TD or real-world scenarios that relate to TD in Agile Software Development (ASD)."
     },
     {
         "id": 22100,
@@ -1581,7 +2010,10 @@
         "viewcount": 4444,
         "tags": "|scrum|agile|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion describes a real-world scenario involving technical challenges such as unmaintainable and untested legacy code, which are clear indicators of technical debt (TD). It addresses Agile practices and their impact on development workflows, focusing on bug fixes and deployment strategies. The inclusion of TD-related issues within an Agile Software Development (ASD) context ensures the relevance of this discussion."
     },
     {
         "id": 22155,
@@ -1592,7 +2024,10 @@
         "viewcount": 520,
         "tags": "|user-stories|scrum-master|product-management|product-owner|planning-poker|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on facilitating a planning meeting with a remote team and addresses issues related to team dynamics and communication. However, it does not mention technical debt (TD) or any indicators of TD, nor does it relate to Agile Software Development (ASD) in a way that highlights TD management. The content is more about process facilitation rather than addressing TD directly."
     },
     {
         "id": 22361,
@@ -1603,7 +2038,10 @@
         "viewcount": 433,
         "tags": "|team-management|planning|development-process|organizational-structure|process-improvement|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly. While it mentions 'tech debt' in passing, it does not provide any context or indicators related to TD. The focus is primarily on organizational structure and team productivity, which are not relevant to the study of TD in Agile Software Development (ASD)."
     },
     {
         "id": 22481,
@@ -1614,7 +2052,10 @@
         "viewcount": 101,
         "tags": "|ms-project|project-management-style|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion is focused on project management relationships in MS Project and does not relate to Technical Debt (TD) or Agile Software Development (ASD). There are no indicators of TD or any relevant context that connects to the criteria outlined for inclusion."
     },
     {
         "id": 22680,
@@ -1625,7 +2066,10 @@
         "viewcount": 2331,
         "tags": "|scrum|requirements|tfs|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on how to manage requirements within the Scrum template in TFS and does not mention technical debt (TD) or any indicators of TD. It lacks real-world scenarios related to TD and does not connect to Agile Software Development (ASD) in a meaningful way."
     },
     {
         "id": 22716,
@@ -1636,7 +2080,10 @@
         "viewcount": 992,
         "tags": "|scrum|agile|project-management-style|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the classification of building microservices within the Scrum framework but does not explicitly or implicitly address technical debt (TD) or its indicators. It lacks a real-world scenario related to TD and does not connect to Agile Software Development (ASD) in a meaningful way."
     },
     {
         "id": 22753,
@@ -1647,7 +2094,10 @@
         "viewcount": 426,
         "tags": "|scrum|sprint|product-owner|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the timing and management of Product Backlog Items (PBIs) within a sprint, but it does not address Technical Debt (TD) or any related indicators. There are no references to technical challenges, code quality, or Agile practices that would indicate the presence of TD, making it irrelevant to the study."
     },
     {
         "id": 22807,
@@ -1658,7 +2108,10 @@
         "viewcount": 130,
         "tags": "|scrum|agile|planning|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the duration and optimization of the Sprint Planning Meeting (SPM2) without explicitly addressing Technical Debt (TD) or its indicators. While it mentions technical analysis and code reference, it does not provide a scenario related to TD or its management within the Agile Software Development (ASD) context."
     },
     {
         "id": 22849,
@@ -1669,7 +2122,10 @@
         "viewcount": 669,
         "tags": "|scrum|product-owner|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the process of inserting defect stories into a sprint based on business priorities, but it does not explicitly address technical debt (TD) or provide indicators of TD. It lacks a real-world scenario related to TD management within Agile Software Development (ASD), making it irrelevant to the study's criteria."
     },
     {
         "id": 22900,
@@ -1680,18 +2136,24 @@
         "viewcount": 182,
         "tags": "|agile|scrum-master|definition-of-done|agile-coach|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on facilitating a meeting to define the 'definition of done' for a team, which does not explicitly or implicitly relate to Technical Debt (TD) or its indicators. There are no references to lived experiences regarding TD, nor does it connect to Agile Software Development (ASD) in a way that addresses TD management."
     },
     {
         "id": 23111,
         "title": "How do you plan for maintainence after a Scrum project",
-        "body": "<p>My background is 6 years in managing \"normal\" projects in an outsourcing company. Recently I've joined a Scrum project.</p>\n\n<p>Here I see people not doing any documentation, no SRS (Software Requirement Specification), no Detailed Design, almost no documents of any sort. They only create some user stories, then start to code. They don�t even create a database design but do �code-first� and generate the database from code. </p>\n\n<p>So, the question is, how can you maintain such a codebase after the project is �done�, say 3�5 year later, when all the current team members have moved on or can�t remember what they did today?</p>\n",
+        "body": "<p>My background is 6 years in managing \"normal\" projects in an outsourcing company. Recently I've joined a Scrum project.</p>\n\n<p>Here I see people not doing any documentation, no SRS (Software Requirement Specification), no Detailed Design, almost no documents of any sort. They only create some user stories, then start to code. They don\u2019t even create a database design but do \u201ccode-first\u201d and generate the database from code. </p>\n\n<p>So, the question is, how can you maintain such a codebase after the project is \u201cdone\u201d, say 3\u20135 year later, when all the current team members have moved on or can\u2019t remember what they did today?</p>\n",
         "score": 5,
         "creationdate": "2017-12-20T01:54:37.593000",
         "viewcount": 247,
         "tags": "|scrum|agile|maintenance|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion raises concerns about documentation and maintainability in a Scrum project but does not explicitly mention technical debt (TD) or provide clear indicators of TD. It focuses more on the challenges of maintaining a codebase without proper documentation rather than discussing TD within the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 23166,
@@ -1702,7 +2164,10 @@
         "viewcount": 161,
         "tags": "|estimation|story-points|pivotal-tracker|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the implications of including chores and technical debt in the team's velocity, which relates to technical debt (TD) management. It highlights the potential value of addressing technical debt through chores, indicating an understanding of how these tasks can impact long-term productivity and quality. However, while it discusses the value of chores, it lacks specific examples of existing scenarios or TD indicators, which slightly reduces its overall relevance."
     },
     {
         "id": 23167,
@@ -1713,7 +2178,10 @@
         "viewcount": 66,
         "tags": "|estimation|pivotal-tracker|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "This discussion addresses the issue of duplicated logic in legacy code, which is a clear indicator of technical debt (TD). It describes a real-world scenario based on lived experience and relates to Agile Software Development (ASD) by discussing how to manage stories in a sprint. However, while it highlights the challenges of estimating effort due to duplication, it could provide more depth on the implications of TD on the development process."
     },
     {
         "id": 23261,
@@ -1724,7 +2192,10 @@
         "viewcount": 716,
         "tags": "|software-development|metrics|measurement|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on measuring productivity between team members based on code output and defects, but it does not explicitly or implicitly address Technical Debt (TD) or provide any indicators of TD. It lacks a real-world scenario related to TD in the context of Agile Software Development (ASD), making it irrelevant for inclusion."
     },
     {
         "id": 23331,
@@ -1735,7 +2206,10 @@
         "viewcount": 4936,
         "tags": "|jira|bugs|epics|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on organizing epics in Jira and managing production bugs, but it does not explicitly or implicitly address technical debt (TD) or its indicators. There is no mention of issues like poor-quality code, lack of tests, or time management difficulties that would relate to TD in the context of Agile Software Development (ASD). The content is more about project management practices rather than technical debt management."
     },
     {
         "id": 23376,
@@ -1746,7 +2220,10 @@
         "viewcount": 413,
         "tags": "|agile|sprint|scope|release-planning|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the debate of fixed scope versus agile principles but does not address Technical Debt (TD) or any indicators of TD. It focuses on the methodology of Agile Software Development (ASD) without providing real-world examples of TD or its implications, thus failing to meet the inclusion criteria."
     },
     {
         "id": 23500,
@@ -1757,7 +2234,10 @@
         "viewcount": 605,
         "tags": "|user-stories|business-case|value|business-process-mapping|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on linking business cases to user stories in Scrum, which does not relate to Technical Debt (TD) or its indicators. There are no references to poor-quality code, lack of tests, or other TD-related challenges, and it does not describe an existing scenario involving TD in the context of Agile Software Development (ASD)."
     },
     {
         "id": 23606,
@@ -1768,7 +2248,10 @@
         "viewcount": 284,
         "tags": "|agile|requirements|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of documenting requirements in a software development context but does not mention technical debt (TD) or any indicators of TD. It lacks a real-world scenario related to TD and does not connect to Agile Software Development (ASD) practices in a meaningful way."
     },
     {
         "id": 23647,
@@ -1779,7 +2262,10 @@
         "viewcount": 175,
         "tags": "|software-development|project-management-style|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it discusses project delays and deployment issues, it lacks a clear connection to TD within the context of Agile Software Development (ASD). The focus is more on project management challenges rather than on technical debt itself."
     },
     {
         "id": 23744,
@@ -1790,7 +2276,10 @@
         "viewcount": 284,
         "tags": "|scrum|agile|product-owner|technical-leader|customer-satisfaction|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) or its indicators explicitly or implicitly. It focuses on the Product Owner's misalignment with customer needs and project management issues rather than on technical challenges or debt within the context of Agile Software Development (ASD). There are no references to poor-quality code, lack of tests, or other TD indicators."
     },
     {
         "id": 23753,
@@ -1801,7 +2290,10 @@
         "viewcount": 308,
         "tags": "|scrum|user-stories|prioritization|sprint-backlog|technical-leader|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the role of a Tech Lead in the user stories prioritization process within a Scrum team. While it touches on aspects of team dynamics and decision-making, it does not explicitly address Technical Debt (TD) or provide indicators of TD. The content lacks a real-world scenario related to TD and does not connect to the challenges of managing TD in Agile Software Development (ASD)."
     },
     {
         "id": 23801,
@@ -1812,7 +2304,10 @@
         "viewcount": 4585,
         "tags": "|agile|jira|project-management-style|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly mentions 'technical-debts' and explores the idea of creating an Epic to manage them within an Agile context. It reflects a real-world scenario where the team is considering how to handle technical debt in their project. However, it lacks depth in discussing specific indicators of technical debt and their implications, which slightly reduces its overall relevance."
     },
     {
         "id": 23809,
@@ -1823,7 +2318,10 @@
         "viewcount": 76,
         "tags": "|agile|pm-software|tfs|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion relates to maintaining a system in production and includes work items that address both bug fixes and documentation, which are relevant to technical debt (TD) management. The mention of refactoring code to improve role validation indicates an awareness of TD indicators. However, while it connects to Agile Software Development (ASD) through the Scrum framework, it could provide more depth on the implications of these tasks on TD."
     },
     {
         "id": 23836,
@@ -1834,7 +2332,10 @@
         "viewcount": 181,
         "tags": "|agile|stakeholders|scope|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "This discussion addresses the challenge of communicating the business value of technical needs within an Agile context, which is relevant to technical debt (TD) management. It highlights the tension between feature development and addressing technical gaps, implicitly indicating the presence of TD. However, it could benefit from more explicit references to specific TD indicators or lived experiences."
     },
     {
         "id": 23888,
@@ -1845,18 +2346,24 @@
         "viewcount": 132,
         "tags": "|scrum|refinement|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of preparing tasks for development and the Definition of Ready (DoR) but does not explicitly mention technical debt (TD) or provide indicators of TD. It lacks a real-world scenario related to TD and does not connect to Agile Software Development (ASD) in a way that highlights TD management."
     },
     {
         "id": 24167,
         "title": "How to fill my day as a Scrum Master?",
-        "body": "<p>I have been a SM now for about 3 years and I enjoy many elements of the role and so far I have had really positive feedback from my stakeholders. The PO says I have good influence over them in making improvements and engineering managers say they are getting what they want from me as a scrum master so it seems to be good.</p>\n\n<p>What I do find however is that I go from being very busy during sprint end/start weeks to be very bored. I literally am not sure how to fill my day and its quite demotivating. I have started have 1-2-1�s with all my team members as I think it important for they evolution to agile greatness but I still have huge gaps of my day when I have nothing to do.</p>\n\n<p>I have regular workshops with the team, but I don�t want to take them away from their desks too much during the sprint because then they can�t deliver on their commitments. I facilitate all their ceremonies and I do participate in the agile community in the organisation.</p>\n\n<p>I find however that if I am not doing what I mentioned above I have not much to actually do.</p>\n\n<p>Does anyone have any suggestions of things I am maybe not doing that I should be doing?</p>\n",
+        "body": "<p>I have been a SM now for about 3 years and I enjoy many elements of the role and so far I have had really positive feedback from my stakeholders. The PO says I have good influence over them in making improvements and engineering managers say they are getting what they want from me as a scrum master so it seems to be good.</p>\n\n<p>What I do find however is that I go from being very busy during sprint end/start weeks to be very bored. I literally am not sure how to fill my day and its quite demotivating. I have started have 1-2-1\u2019s with all my team members as I think it important for they evolution to agile greatness but I still have huge gaps of my day when I have nothing to do.</p>\n\n<p>I have regular workshops with the team, but I don\u2019t want to take them away from their desks too much during the sprint because then they can\u2019t deliver on their commitments. I facilitate all their ceremonies and I do participate in the agile community in the organisation.</p>\n\n<p>I find however that if I am not doing what I mentioned above I have not much to actually do.</p>\n\n<p>Does anyone have any suggestions of things I am maybe not doing that I should be doing?</p>\n",
         "score": 5,
         "creationdate": "2018-06-04T14:59:23.207000",
         "viewcount": 2005,
         "tags": "|scrum|scrum-master|agile-coach|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or provide any indicators of TD. It focuses on the Scrum Master's role and their daily activities without addressing any technical challenges or issues that could lead to TD in Agile Software Development (ASD). There are no real-world scenarios involving TD, making it irrelevant to the study."
     },
     {
         "id": 24231,
@@ -1867,7 +2374,10 @@
         "viewcount": 346,
         "tags": "|agile|pm-software|jira|tfs|vsts|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the transition from JIRA to VSTS Agile and addresses questions about tool functionalities and workflows. It does not explicitly or implicitly relate to Technical Debt (TD) or provide indicators of TD within the context of Agile Software Development (ASD). The content is more about project management tools rather than technical debt management."
     },
     {
         "id": 24396,
@@ -1878,7 +2388,10 @@
         "viewcount": 905,
         "tags": "|scrum|agile|team-management|performance|",
         "answercount": 7,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on identifying fast and slow developers within a team and does not address Technical Debt (TD) or its indicators. While it mentions Scrum methodologies, it lacks any explicit or implicit references to TD, making it irrelevant to the study's criteria."
     },
     {
         "id": 24436,
@@ -1889,7 +2402,10 @@
         "viewcount": 4401,
         "tags": "|scrum|sprint|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion examines the handling of hotfixes within the Scrum methodology, which is directly relevant to Agile Software Development (ASD). It highlights the challenges posed by hotfixes as a form of technical debt (TD) that can disrupt sprint goals. The inquiry into maintaining Scrum practices while managing these urgent tasks demonstrates a clear connection to TD management, making it an excellent example for study."
     },
     {
         "id": 24486,
@@ -1900,7 +2416,10 @@
         "viewcount": 2270,
         "tags": "|scrum|agile|scrum-master|team-size|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) or any related indicators. It focuses solely on the role of a Scrum Master in managing multiple projects without any mention of TD or its implications in Agile Software Development (ASD)."
     },
     {
         "id": 24493,
@@ -1911,7 +2430,10 @@
         "viewcount": 2842,
         "tags": "|scrum|sprint|sprint-planning|product-backlog|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the scheduling of Sprints and the management of story points at the end of a project. It does not address Technical Debt (TD) explicitly or implicitly, nor does it provide any indicators of TD. The content is more about sprint planning rather than any real-world scenario related to technical debt in Agile Software Development (ASD)."
     },
     {
         "id": 24498,
@@ -1922,7 +2444,10 @@
         "viewcount": 3422,
         "tags": "|scrum|scrum-master|product-owner|technical-debt|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Excellent",
+        "Justification": "This discussion directly addresses the challenge of registering and tracking technical debt (TD) within Scrum. It provides a clear connection to TD management practices in Agile Software Development (ASD) and raises important questions about ensuring that TD remains visible to the team. Its focus on practical solutions enhances its relevance and utility."
     },
     {
         "id": 24551,
@@ -1933,18 +2458,24 @@
         "viewcount": 3625,
         "tags": "|product-owner|sprint-planning|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion presents a hypothetical scenario involving a conflict between a Product Owner and developers but does not provide a real-world example or lived experience. It lacks explicit or implicit references to technical debt (TD) indicators and does not relate to Agile Software Development (ASD) in a meaningful way, focusing instead on a general conflict resolution scenario."
     },
     {
         "id": 24606,
         "title": "Scheduling for Calendar Time when availability is variable?",
-        "body": "<p>I have a few core team members who also look after daily support. It�s not uncommon for them to get stuck in some firefighting for a day or two which completely throws off a project schedule. How can I keep my stakeholders from getting frustrated every time the date pushes back?</p>\n",
+        "body": "<p>I have a few core team members who also look after daily support. It\u2019s not uncommon for them to get stuck in some firefighting for a day or two which completely throws off a project schedule. How can I keep my stakeholders from getting frustrated every time the date pushes back?</p>\n",
         "score": 4,
         "creationdate": "2018-07-30T13:48:38",
         "viewcount": 77,
         "tags": "|scheduling|schedule-risk|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion addresses challenges related to scheduling and team availability but does not mention technical debt (TD) or any indicators of TD. It focuses on project management issues without a clear connection to Agile Software Development (ASD) or lived experiences related to TD."
     },
     {
         "id": 24669,
@@ -1955,7 +2486,10 @@
         "viewcount": 775,
         "tags": "|scrum|product-owner|human-resources|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on hiring practices for a product owner and does not provide any indicators of TD or real-world scenarios involving technical debt."
     },
     {
         "id": 24688,
@@ -1966,7 +2500,10 @@
         "viewcount": 312,
         "tags": "|scrum|planning|sprint|kpi|measurement|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on measuring team productivity through story points in a Scrum environment but does not explicitly address technical debt (TD) or any indicators of TD. While it mentions quality being sacrificed, it lacks a clear connection to TD management or lived experiences related to TD in Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 24695,
@@ -1977,7 +2514,10 @@
         "viewcount": 1496,
         "tags": "|deadline|fixed-price|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project management techniques and tools for a fixed-price software development project but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions Agile practices like Scrum, it does not provide a real-world scenario related to TD within the context of Agile Software Development (ASD). The content is more about project management strategies rather than managing technical debt."
     },
     {
         "id": 24807,
@@ -1988,7 +2528,10 @@
         "viewcount": 3000,
         "tags": "|scrum|agile|sprint|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the management of sprint timelines and user stories but does not address Technical Debt (TD) or any related indicators. It lacks real-world examples of TD and does not connect to Agile Software Development (ASD) in a way that highlights TD challenges or scenarios."
     },
     {
         "id": 24889,
@@ -1999,7 +2542,10 @@
         "viewcount": 2438,
         "tags": "|scrum|agile|sprint|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the logistics of sprint planning and business day calculations without any mention of technical debt (TD) or related indicators. It does not provide a real-world scenario involving TD, nor does it connect to Agile Software Development (ASD) in a meaningful way that addresses TD management."
     },
     {
         "id": 24897,
@@ -2010,18 +2556,24 @@
         "viewcount": 109,
         "tags": "|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it discusses project management and decision-making in the context of Agile projects, it does not relate to TD or Agile Software Development (ASD) practices. The focus is on data warehousing solutions rather than on technical debt management."
     },
     {
         "id": 24904,
         "title": "DevOps and support organization",
-        "body": "<p>Nowadays companies go into devops practices to boost productivity.</p>\n\n<p>In our case we (3rd party outsourcing vendor) developed a first version of the product for our client  , it�s cloud based platform. \nWe do have tests, the deployment is semi-automated since there are fashion manual steps (like AD requests) . We don�t have continuous delivery and deployment yet, though.\nDuring development, we cooperated with client IT ops so they contributed to the product development (they built images, deployed to pre-prod, prod, fixed issues related to client infrastructure)</p>\n\n<p>Now it�s time to go-live and client wants to formalize support but still follow devops practices.</p>\n\n<p>For me it�s quite hard to understand how this can be built. </p>\n\n<p>For example:\nIf we keep on implementing new features and have a team working on the product, we can spend % of development time on support requests (2 and 3rd level of support), so that devs are integrated into ops, and understand the pain of users or ops, can not only fix issues but also bring some improvements to deployment, monitoring etc. to make product more reliable, faster and deliver value to business quicker. </p>\n\n<p>But what if there is no new features development and just support (with 2nd and 3rd level) that either configuration and standard operations according to runbook (2nd level) or defects fixing on 3rd level.  Since those are OPEX for clients they don�t tend to invest in this � hence there is no real opportunity (in terms of efforts spent) to follow and foster good devops practices during just support with no active development. </p>\n\n<p>What do you think ?\nIs it possible to run support in devops mode with no active product development ?  how this can be done ?</p>\n",
+        "body": "<p>Nowadays companies go into devops practices to boost productivity.</p>\n\n<p>In our case we (3rd party outsourcing vendor) developed a first version of the product for our client  , it\u2019s cloud based platform. \nWe do have tests, the deployment is semi-automated since there are fashion manual steps (like AD requests) . We don\u2019t have continuous delivery and deployment yet, though.\nDuring development, we cooperated with client IT ops so they contributed to the product development (they built images, deployed to pre-prod, prod, fixed issues related to client infrastructure)</p>\n\n<p>Now it\u2019s time to go-live and client wants to formalize support but still follow devops practices.</p>\n\n<p>For me it\u2019s quite hard to understand how this can be built. </p>\n\n<p>For example:\nIf we keep on implementing new features and have a team working on the product, we can spend % of development time on support requests (2 and 3rd level of support), so that devs are integrated into ops, and understand the pain of users or ops, can not only fix issues but also bring some improvements to deployment, monitoring etc. to make product more reliable, faster and deliver value to business quicker. </p>\n\n<p>But what if there is no new features development and just support (with 2nd and 3rd level) that either configuration and standard operations according to runbook (2nd level) or defects fixing on 3rd level.  Since those are OPEX for clients they don\u2019t tend to invest in this \u2013 hence there is no real opportunity (in terms of efforts spent) to follow and foster good devops practices during just support with no active development. </p>\n\n<p>What do you think ?\nIs it possible to run support in devops mode with no active product development ?  how this can be done ?</p>\n",
         "score": 0,
         "creationdate": "2018-09-15T06:23:28.397000",
         "viewcount": 130,
         "tags": "|devops|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) or its indicators within the context of Agile Software Development (ASD). It focuses on DevOps practices and support organization without mentioning any specific challenges related to TD, such as poor-quality code, lack of tests, or time management difficulties. Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 24992,
@@ -2032,7 +2584,10 @@
         "viewcount": 2667,
         "tags": "|scrum|agile|scrum-master|product-owner|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of a Product Owner's understanding of their role within a Scrum team. While it touches on team dynamics and management issues, it does not explicitly or implicitly address Technical Debt (TD) or its indicators. The content is more about role clarification and team management rather than any technical debt-related concerns in Agile Software Development (ASD)."
     },
     {
         "id": 25105,
@@ -2043,7 +2598,10 @@
         "viewcount": 140,
         "tags": "|agile|sprint|kanban-board|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Fair",
+        "Justification": "This discussion addresses the challenge of representing refactoring tasks in a sprint, which is a common approach to managing technical debt (TD). While it explicitly mentions refactoring, the discussion lacks depth on the broader impact of TD on development workflows, reducing its overall relevance."
     },
     {
         "id": 25159,
@@ -2054,7 +2612,10 @@
         "viewcount": 2345,
         "tags": "|team-management|tasks|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on team performance and accountability issues without any mention of TD indicators or scenarios that would connect it to the context of ASD."
     },
     {
         "id": 25391,
@@ -2065,7 +2626,10 @@
         "viewcount": 2914,
         "tags": "|scrum|agile|jira|sprint|backlog|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or provide any indicators of TD. It focuses solely on the responsibilities of team roles within Agile, specifically regarding the movement of backlog items in Jira, without addressing any real-world scenarios or challenges related to TD."
     },
     {
         "id": 25671,
@@ -2076,7 +2640,10 @@
         "viewcount": 774,
         "tags": "|agile|planning|estimation|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or its indicators. It focuses on the use of story points in a fixed scope, price, and time environment, without any mention of TD or challenges that could lead to TD. The content does not provide a real-world scenario involving TD in the context of Agile Software Development (ASD)."
     },
     {
         "id": 25683,
@@ -2087,7 +2654,10 @@
         "viewcount": 906,
         "tags": "|scrum|user-stories|jira|sprint|sprint-planning|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around handling blocked user stories and managing sprint capacity but does not explicitly address Technical Debt (TD) or provide indicators of TD. It focuses on sprint management and prioritization without connecting to the implications of TD in Agile Software Development (ASD)."
     },
     {
         "id": 25719,
@@ -2098,7 +2668,10 @@
         "viewcount": 761,
         "tags": "|scrum|software-development|user-stories|development-process|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of splitting user stories in the context of SDK development and does not explicitly address Technical Debt (TD) or provide indicators of TD. While it discusses Agile processes, it lacks a clear connection to TD management or existing scenarios related to TD in Agile Software Development (ASD)."
     },
     {
         "id": 25767,
@@ -2109,7 +2682,10 @@
         "viewcount": 304,
         "tags": "|motivation|performance|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on team motivation and wage increments without any mention of technical challenges, code quality, or indicators of TD."
     },
     {
         "id": 25872,
@@ -2120,7 +2696,10 @@
         "viewcount": 293,
         "tags": "|team-management|cost-management|human-resources|budget|constraints|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on project management challenges regarding budget and resource allocation without any mention of TD indicators or real-world scenarios involving technical debt."
     },
     {
         "id": 25900,
@@ -2131,7 +2710,10 @@
         "viewcount": 533,
         "tags": "|scrum|agile|project-management-style|micro-management|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on managing expectations from senior management regarding story points and team velocity, but it does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it discusses challenges in team dynamics and project complexity, it lacks a direct connection to TD within the context of Agile Software Development (ASD)."
     },
     {
         "id": 26011,
@@ -2142,7 +2724,10 @@
         "viewcount": 1712,
         "tags": "|scrum|agile|sprint|velocity|technical-debt|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion raises a question about the relationship between technical debt and velocity but does not provide an existing scenario based on lived experience. It lacks explicit or implicit references to TD indicators and does not relate to Agile Software Development (ASD) practices in a meaningful way. The focus is more on theoretical understanding rather than practical implications."
     },
     {
         "id": 26070,
@@ -2153,7 +2738,10 @@
         "viewcount": 374,
         "tags": "|software-development|quality|quality-management|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion addresses software quality management but does not explicitly mention Technical Debt (TD) or provide clear indicators of TD within the context of Agile Software Development (ASD). The focus is on quality issues and management strategies rather than on the implications of technical debt, leading to its exclusion."
     },
     {
         "id": 26106,
@@ -2164,7 +2752,10 @@
         "viewcount": 337,
         "tags": "|scrum|agile|planning|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion mentions challenges related to working on sprints while addressing unplanned issues, but it does not explicitly or implicitly reference technical debt (TD) or any TD indicators. The focus is on managing workload and commitments in Agile without connecting to TD concepts, making it irrelevant to the study."
     },
     {
         "id": 26133,
@@ -2175,7 +2766,10 @@
         "viewcount": 251,
         "tags": "|scrum|sprint|development-process|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion revolves around the management of production issues within a Scrum team but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it discusses prioritization and team dynamics, it lacks a clear connection to TD in the context of Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 26149,
@@ -2186,7 +2780,10 @@
         "viewcount": 1021,
         "tags": "|scrum|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the concept of parallel sprints and does not mention technical debt (TD) or any indicators of TD. It lacks real-world examples related to TD and does not connect to Agile Software Development (ASD) in a meaningful way, making it irrelevant to the study."
     },
     {
         "id": 26220,
@@ -2197,7 +2794,10 @@
         "viewcount": 990,
         "tags": "|scrum|agile|sprint-backlog|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of managing work in progress at the end of a Sprint within the Scrum framework. However, it does not explicitly or implicitly address Technical Debt (TD) or any indicators of TD. The content is more about understanding Scrum practices rather than discussing TD in the context of Agile Software Development."
     },
     {
         "id": 26339,
@@ -2208,7 +2808,10 @@
         "viewcount": 563,
         "tags": "|bugs|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on estimating effort for bugs within the context of Agile estimation practices but does not explicitly address technical debt (TD) or its indicators. While it mentions critical bugs and adjustments to tasks, it lacks a clear connection to TD management or challenges related to technical debt in Agile Software Development (ASD). Therefore, it does not meet the inclusion criteria."
     },
     {
         "id": 26369,
@@ -2219,7 +2822,10 @@
         "viewcount": 56,
         "tags": "|team-management|project-management-style|open-source|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not address Technical Debt (TD) explicitly or implicitly. It focuses on task delegation and collaboration in a new project without any mention of indicators of TD or challenges related to Agile Software Development (ASD). The context is too vague and does not provide real-world examples of TD."
     },
     {
         "id": 26555,
@@ -2230,7 +2836,10 @@
         "viewcount": 198,
         "tags": "|scrum|user-stories|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on the process of marking user stories that are not plausible for implementation, without any mention of TD indicators or challenges associated with technical debt."
     },
     {
         "id": 26602,
@@ -2241,7 +2850,10 @@
         "viewcount": 145,
         "tags": "|kanban|prioritization|work-in-progress|",
         "answercount": 1,
-        "favoritecount": 0
+        "favoritecount": 0,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the implementation of work in progress (WIP) limits and prioritization of stories, but it does not explicitly or implicitly address Technical Debt (TD) or its indicators. There are no references to poor-quality code, lack of tests, or other TD-related challenges within the context of Agile Software Development (ASD). The content is more about process management rather than technical debt."
     },
     {
         "id": 26616,
@@ -2252,7 +2864,10 @@
         "viewcount": 1292,
         "tags": "|scrum|planning|bugs|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the challenges of managing bugs within a software development context that resembles Scrum, which is relevant to Agile Software Development (ASD). It highlights the impact of bugs on development work and the need for planning, which can be seen as an indicator of technical debt. However, while it discusses the issue of bugs, it does not explicitly mention technical debt or provide clear indicators of TD, which slightly reduces its overall relevance."
     },
     {
         "id": 26621,
@@ -2263,7 +2878,10 @@
         "viewcount": 235,
         "tags": "|scrum|software-development|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly address Technical Debt (TD) or provide clear indicators of TD within the context of Agile Software Development (ASD). While it discusses challenges in implementing Scrum, it lacks a focus on real-world scenarios related to TD and does not mention any specific TD indicators. The content is more about the struggles of adapting to Scrum rather than addressing technical debt issues."
     },
     {
         "id": 26695,
@@ -2274,7 +2892,10 @@
         "viewcount": 1228,
         "tags": "|scrum|agile|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the challenges of multiple teams working on a single product within a Scrum framework, highlighting issues related to technical debt (TD) such as inconsistent code quality and the potential for conflicts due to differing practices among teams. It explicitly mentions the impact of one team's technical debt on others, which aligns with TD indicators. However, it could benefit from more specific examples or lived experiences to enhance its relevance."
     },
     {
         "id": 26909,
@@ -2285,7 +2906,10 @@
         "viewcount": 135,
         "tags": "|estimation|testing|software|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on estimation techniques for test cases in traditional software projects and does not mention technical debt (TD) or relate to Agile Software Development (ASD). It lacks any indicators of TD and does not describe a real-world scenario involving TD management."
     },
     {
         "id": 27208,
@@ -2296,7 +2920,10 @@
         "viewcount": 9703,
         "tags": "|scrum|sprint|sprint-planning|timeboxing|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on the necessity of a meeting duration in sprint planning without addressing any indicators of TD or providing a real-world scenario related to TD management."
     },
     {
         "id": 27773,
@@ -2307,7 +2934,10 @@
         "viewcount": 297,
         "tags": "|scrum|kanban|project-management-style|multi-projects|multi-team|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project management methodologies and the challenges of coordinating multiple teams and projects. While it mentions a Scrum-like approach and considers switching to Kanban, it does not explicitly address Technical Debt (TD) or provide indicators of TD within the context of Agile Software Development (ASD). The content lacks real-world examples of TD or its implications, making it irrelevant for inclusion."
     },
     {
         "id": 27909,
@@ -2318,7 +2948,10 @@
         "viewcount": 10386,
         "tags": "|product-owner|motivation|startup|",
         "answercount": 12,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on team motivation and management challenges in a startup context, but it does not relate to Technical Debt (TD) or Agile Software Development (ASD). There are no explicit or implicit references to TD indicators, and the content does not address any technical aspects of software development that would connect it to the research study."
     },
     {
         "id": 28012,
@@ -2329,7 +2962,10 @@
         "viewcount": 4091,
         "tags": "|scrum|agile|jira|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the challenges of using User Stories in a software development context but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions issues related to project management and team dynamics, it lacks a clear connection to TD within the Agile Software Development (ASD) framework."
     },
     {
         "id": 28023,
@@ -2340,18 +2976,24 @@
         "viewcount": 238,
         "tags": "|scrum|agile|estimation|story-points|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion addresses the challenges of an agile team's velocity as the project progresses, but it does not explicitly or implicitly mention Technical Debt (TD) or any related indicators. The focus is on the estimation of Story Points and the impact of project complexity, which does not align with the criteria for TD in Agile Software Development (ASD)."
     },
     {
         "id": 28226,
         "title": "How can I make sure that the development team understand the importance of the Scrum ceremonies?",
-        "body": "<p>I heard a comment the other day from a team in our organization</p>\n\n<blockquote>\n  <p>As soon as release pressure increase the scrum ceremonies gets\n  neglected</p>\n</blockquote>\n\n<p>I thought to maybe have a chat with scrum master and have a session with our organization around this subject because I think this might affect more than one team.\nI am not sure how to approach this meeting because I know all ceremonies are important</p>\n\n<blockquote>\n  <p>Scrum ceremonies are important elements of the agile software delivery\n  process. They are not just meetings for the sake of having meetings.\n  Rather, these scrum ceremonies provide the framework for teams to get\n  work done in a structured manner, help to set expectations, empower\n  the team to collaborate effectively, and ultimately drive results. If\n  they�re not managed appropriately, however, they can overwhelm\n  calendars and drown out the value they are intended to provide.</p>\n</blockquote>\n\n<p>As of writing this I dont know what \"neglected\" means in the context of this team but I will still have a meeting. The point is, it�s not about whether or not they are doing these things perfectly but that they are doing them at all.  Each of the ceremonies has a very particular reason for its existence and continued use, so we want to target those reasons, not stick to some unnecessarily rigid definition of what�s �right� or �wrong�.</p>\n\n<p>Agility requires us to adapt to changing conditions, but it starts by adopting processes that make us more likely to do the right things at the right times.</p>\n\n<p>Do you have any pointers when I talk to the teams? </p>\n",
+        "body": "<p>I heard a comment the other day from a team in our organization</p>\n\n<blockquote>\n  <p>As soon as release pressure increase the scrum ceremonies gets\n  neglected</p>\n</blockquote>\n\n<p>I thought to maybe have a chat with scrum master and have a session with our organization around this subject because I think this might affect more than one team.\nI am not sure how to approach this meeting because I know all ceremonies are important</p>\n\n<blockquote>\n  <p>Scrum ceremonies are important elements of the agile software delivery\n  process. They are not just meetings for the sake of having meetings.\n  Rather, these scrum ceremonies provide the framework for teams to get\n  work done in a structured manner, help to set expectations, empower\n  the team to collaborate effectively, and ultimately drive results. If\n  they\u2019re not managed appropriately, however, they can overwhelm\n  calendars and drown out the value they are intended to provide.</p>\n</blockquote>\n\n<p>As of writing this I dont know what \"neglected\" means in the context of this team but I will still have a meeting. The point is, it\u2019s not about whether or not they are doing these things perfectly but that they are doing them at all.  Each of the ceremonies has a very particular reason for its existence and continued use, so we want to target those reasons, not stick to some unnecessarily rigid definition of what\u2019s \u201cright\u201d or \u201cwrong\u201d.</p>\n\n<p>Agility requires us to adapt to changing conditions, but it starts by adopting processes that make us more likely to do the right things at the right times.</p>\n\n<p>Do you have any pointers when I talk to the teams? </p>\n",
         "score": 3,
         "creationdate": "2020-02-24T09:35:05.507000",
         "viewcount": 272,
         "tags": "|scrum|agile|scrum-ceremonies|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the importance of Scrum ceremonies and their management within Agile Software Development (ASD). However, it does not address Technical Debt (TD) explicitly or implicitly, nor does it provide any indicators of TD. The content is more about process adherence rather than the implications of TD in the context of Agile practices."
     },
     {
         "id": 28228,
@@ -2362,7 +3004,10 @@
         "viewcount": 9069,
         "tags": "|scrum|agile|estimation|user-stories|",
         "answercount": 9,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on handling disagreements about story-point estimates in Scrum, which does not relate to Technical Debt (TD) or its indicators. There are no explicit or implicit references to TD, and the scenario presented is hypothetical without real-world examples of TD challenges."
     },
     {
         "id": 28288,
@@ -2373,7 +3018,10 @@
         "viewcount": 2773,
         "tags": "|scrum|agile|team-management|jira|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on project management practices in Jira and does not address Technical Debt (TD) explicitly or implicitly. There are no references to TD indicators or challenges related to Agile Software Development (ASD) in the context of technical debt, making it irrelevant for inclusion in the study."
     },
     {
         "id": 29584,
@@ -2384,7 +3032,10 @@
         "viewcount": 5881,
         "tags": "|scrum|jira|testing|bugs|velocity|",
         "answercount": 8,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on process bottlenecks and team dynamics within a Scrum framework but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions issues related to testing and task management, these do not directly relate to TD in Agile Software Development (ASD). The content lacks a clear connection to TD management or indicators, leading to its exclusion."
     },
     {
         "id": 29724,
@@ -2395,7 +3046,10 @@
         "viewcount": 234,
         "tags": "|agile|team-management|sprint|motivation|velocity|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions team velocity and motivation issues, these are not directly related to TD in the context of Agile Software Development (ASD). The focus is on team dynamics and management challenges rather than on technical aspects or scenarios involving TD."
     },
     {
         "id": 29868,
@@ -2406,7 +3060,10 @@
         "viewcount": 167,
         "tags": "|user-stories|acceptance-criteria|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on writing user stories and acceptance criteria in the context of an e-commerce website. It does not mention technical debt (TD) or any indicators of TD, nor does it relate to Agile Software Development (ASD) in a meaningful way. The content is more about user story formulation rather than addressing any technical challenges or debt management."
     },
     {
         "id": 29946,
@@ -2417,7 +3074,10 @@
         "viewcount": 361,
         "tags": "|scrum|agile|sprint|product-backlog|sprint-goal|",
         "answercount": 3,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on differentiating between the Sprint Goal and the Sprint Backlog within the context of Agile Software Development (ASD). However, it does not address Technical Debt (TD) explicitly or implicitly, nor does it provide any real-world scenario related to TD. The mention of 'tech debt' in the context of the Sprint Backlog is too vague and does not define any TD indicators or challenges, making it irrelevant for inclusion in the study."
     },
     {
         "id": 30136,
@@ -2428,7 +3088,10 @@
         "viewcount": 663,
         "tags": "|scrum|agile|software-development|schedule-risk|",
         "answercount": 2,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion explicitly addresses the challenges of frequent refactoring in an Agile development context, which is a clear indicator of technical debt (TD). It describes a real-world scenario where the project delivery timeline is negatively impacted due to necessary code changes. However, while it raises important questions about managing these challenges, it could benefit from more depth regarding specific TD management strategies."
     },
     {
         "id": 30622,
@@ -2439,7 +3102,10 @@
         "viewcount": 364,
         "tags": "|team-management|deadline|goals|",
         "answercount": 5,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion does not relate to Technical Debt (TD) or Agile Software Development (ASD). It focuses on the challenge of simulating hard deadlines and improving team productivity without any mention of TD indicators or real-world scenarios involving technical debt."
     },
     {
         "id": 30775,
@@ -2450,7 +3116,10 @@
         "viewcount": 615,
         "tags": "|scrum|estimation|story-points|backlog|dependencies|",
         "answercount": 6,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on estimating stories and managing dependencies in Scrum but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it discusses challenges in backlog management, it lacks any mention of poor-quality code, lack of tests, or other TD-related issues, making it irrelevant to the study on TD in Agile Software Development."
     },
     {
         "id": 31076,
@@ -2461,7 +3130,10 @@
         "viewcount": 123,
         "tags": "|scrum|user-stories|backlog|",
         "answercount": 1,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "Yes",
+        "Relevance": "Good",
+        "Justification": "The discussion addresses the challenge of managing technical tasks, such as refactoring and cleaning code, within the product backlog, which are indicators of technical debt (TD). It relates to Agile Software Development (ASD) by focusing on backlog management practices. However, it lacks specific examples of lived experiences or deeper insights into the impact of these tasks on the development process, which slightly reduces its overall relevance."
     },
     {
         "id": 31094,
@@ -2472,7 +3144,10 @@
         "viewcount": 512,
         "tags": "|scrum|agile|sprint|sprint-planning|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion focuses on the management of sprint tasks and scheduling but does not mention technical debt (TD) or any indicators of TD. It presents a hypothetical scenario without real-world examples or lived experiences related to TD in Agile Software Development (ASD)."
     },
     {
         "id": 31155,
@@ -2483,6 +3158,9 @@
         "viewcount": 781,
         "tags": "|scrum|value|",
         "answercount": 4,
-        "favoritecount": null
+        "favoritecount": null,
+        "Inclusion": "No",
+        "Relevance": "False Positive",
+        "Justification": "The discussion touches on Scrum principles and the concept of cadence but does not explicitly or implicitly address Technical Debt (TD) or its indicators. While it mentions the use of quick-hacks that could relate to quality issues, it lacks a clear connection to TD within the context of Agile Software Development (ASD). The focus is more on Scrum practices rather than on TD management."
     }
 ]
